@@ -1,0 +1,57 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert -f docker-compose.yaml
+    kompose.version: 1.21.0 (992df58d8)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: postgresql
+  name: postgresql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: postgresql
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert -f docker-compose.yaml
+        kompose.version: 1.21.0 (992df58d8)
+      creationTimestamp: null
+      labels:
+        io.kompose.network/jiranet: "true"
+        io.kompose.service: postgresql
+    spec:
+      containers:
+      - env:
+        - name: POSTGRES_COLLATE
+          value: C
+        - name: POSTGRES_COLLATE_TYPE
+          value: C
+        - name: POSTGRES_DB
+          value: jiradb
+        - name: POSTGRES_ENCODING
+          value: UNICODE
+        - name: POSTGRES_PASSWORD
+          value: admin
+        - name: POSTGRES_USER
+          value: jiradbuser
+        image: postgres:9.6
+        imagePullPolicy: ""
+        name: postgres
+        ports:
+        - containerPort: 5432
+        resources: {}
+        volumeMounts:
+        - mountPath: /var/lib/postgresql/data
+          name: postgresql-claim0
+      restartPolicy: Always
+      serviceAccountName: ""
+      volumes:
+      - name: postgresql-claim0
+        persistentVolumeClaim:
+          claimName: postgresql-claim0
+status: {}

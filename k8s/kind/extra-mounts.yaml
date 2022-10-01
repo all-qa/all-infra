@@ -1,0 +1,23 @@
+apiVersion: kind.x-k8s.io/v1alpha4
+kind: Cluster
+nodes:
+  - role: control-plane
+    extraMounts:
+      - hostPath: /home/oleg/all-qa/all-infra/k8s/jenkins/jenkins_data
+        containerPath: /jenkins/jenkins_data
+      - hostPath: /var/run/docker.sock
+        containerPath: /var/run/docker.sock
+    extraPortMappings:
+      - containerPort: 80
+        hostPort: 80
+        listenAddress: "127.0.0.1"
+        protocol: TCP
+      - containerPort: 8080
+        hostPort: 8080
+        listenAddress: "127.0.0.1"
+        protocol: TCP
+      - containerPort: 4444
+        hostPort: 4444
+        listenAddress: "127.0.0.1"
+        protocol: TCP
+

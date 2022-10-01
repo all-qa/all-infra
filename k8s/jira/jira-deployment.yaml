@@ -1,0 +1,58 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert -f docker-compose.yaml
+    kompose.version: 1.21.0 (992df58d8)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: jira
+  name: jira
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: jira
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert -f docker-compose.yaml
+        kompose.version: 1.21.0 (992df58d8)
+      creationTimestamp: null
+      labels:
+        io.kompose.network/jiranet: "true"
+        io.kompose.service: jira
+    spec:
+      containers:
+      - env:
+        - name: ATL_JDBC_PASSWORD
+          value: admin
+        - name: ATL_JDBC_URL
+          value: jdbc:postgresql://postgresql:5432/jiradb
+        - name: ATL_JDBC_USER
+          value: jiradbuser
+        - name: JIRA_PROXY_NAME
+        - name: JIRA_PROXY_PORT
+        - name: JIRA_PROXY_SCHEME
+        - name: SETENV_JVM_MAXIMUM_MEMORY
+          value: 4096m
+        - name: SETENV_JVM_MINIMUM_MEMORY
+          value: 2048m
+        image: atlassian/jira-software:8.5.4
+        imagePullPolicy: ""
+        name: jira
+        ports:
+        - containerPort: 8080
+        resources: {}
+        volumeMounts:
+        - mountPath: /var/atlassian/jira
+          name: jira-claim0
+      restartPolicy: Always
+      serviceAccountName: ""
+      volumes:
+      - name: jira-claim0
+        persistentVolumeClaim:
+          claimName: jira-claim0
+status: {}

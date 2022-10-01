@@ -1,0 +1,51 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert -f docker-compose.yaml
+    kompose.version: 1.21.0 (992df58d8)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: db
+  name: db
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: db
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: /snap/kompose/19/kompose-linux-amd64 convert -f docker-compose.yaml
+        kompose.version: 1.21.0 (992df58d8)
+      creationTimestamp: null
+      labels:
+        io.kompose.service: db
+    spec:
+      containers:
+      - env:
+        - name: POSTGRES_PASSWORD
+          value: sonar
+        - name: POSTGRES_USER
+          value: sonar
+        image: postgres:12
+        imagePullPolicy: ""
+        name: db
+        resources: {}
+        volumeMounts:
+        - mountPath: /var/lib/postgresql
+          name: postgresql
+        - mountPath: /var/lib/postgresql/data
+          name: postgresql-data
+      restartPolicy: Always
+      serviceAccountName: ""
+      volumes:
+      - name: postgresql
+        persistentVolumeClaim:
+          claimName: postgresql
+      - name: postgresql-data
+        persistentVolumeClaim:
+          claimName: postgresql-data
+status: {}
