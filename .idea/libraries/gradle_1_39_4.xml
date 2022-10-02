@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="gradle-1.39.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/gradle/WEB-INF/lib/gradle-1.39.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

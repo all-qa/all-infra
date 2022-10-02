@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="workflow-basic-steps">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/workflow-basic-steps/WEB-INF/lib/workflow-basic-steps.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

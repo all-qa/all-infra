@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="lib37">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/github-api/WEB-INF/lib/github-api-1.303.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/github-api/WEB-INF/lib/okhttp-2.7.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/github-api/WEB-INF/lib/github-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/github-api/WEB-INF/lib/commons-lang3-3.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/github-api/WEB-INF/lib/okhttp-urlconnection-2.7.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

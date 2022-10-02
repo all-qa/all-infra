@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="plugin-util-api">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/plugin-util-api/WEB-INF/lib/plugin-util-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

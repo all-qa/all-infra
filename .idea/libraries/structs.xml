@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="structs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/structs/WEB-INF/lib/structs.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

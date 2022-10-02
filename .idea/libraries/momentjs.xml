@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="momentjs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/momentjs/WEB-INF/lib/momentjs.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

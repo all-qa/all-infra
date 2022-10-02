@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="github-branch-source">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/github-branch-source/WEB-INF/lib/github-branch-source.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="workflow-scm-step">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/workflow-scm-step/WEB-INF/lib/workflow-scm-step.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

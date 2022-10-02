@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="lib35">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jackson2-api/WEB-INF/lib/jackson-dataformat-cbor-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jackson2-api/WEB-INF/lib/jackson-datatype-jdk8-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jackson2-api/WEB-INF/lib/jackson-datatype-json-org-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jackson2-api/WEB-INF/lib/json-20190722.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jackson2-api/WEB-INF/lib/jackson-core-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jackson2-api/WEB-INF/lib/jackson-annotations-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jackson2-api/WEB-INF/lib/jackson2-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jackson2-api/WEB-INF/lib/jackson-dataformat-xml-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jackson2-api/WEB-INF/lib/jackson-datatype-jsr310-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jackson2-api/WEB-INF/lib/jackson-dataformat-yaml-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jackson2-api/WEB-INF/lib/jackson-module-jaxb-annotations-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jackson2-api/WEB-INF/lib/woodstox-core-6.2.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jackson2-api/WEB-INF/lib/jackson-module-parameter-names-2.13.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jackson2-api/WEB-INF/lib/stax2-api-4.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jackson2-api/WEB-INF/lib/jackson-databind-2.13.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

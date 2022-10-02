@@ -677,7 +677,7 @@ function applyFilter(searchQuery) {
     var admin = pluginsTable.dataset.hasadmin === "true";
     var selectedPlugins = [];
     var filterInput = document.getElementById("filter-box");
-    filterInput.parentElement.classList.remove("app-plugin-manager__search--loading");
+    filterInput.parentElement.classList.remove("jenkins-search--loading");
 
     function clearOldResults() {
       if (!admin) {
@@ -719,9 +719,8 @@ document.addEventListener("DOMContentLoaded", function () {
   var filterInput = document.getElementById("filter-box");
   filterInput.addEventListener("input", function (e) {
     debouncedFilter(e);
-    filterInput.parentElement.classList.add("app-plugin-manager__search--loading");
+    filterInput.parentElement.classList.add("jenkins-search--loading");
   });
-  filterInput.focus();
   applyFilter(filterInput.value);
   setTimeout(function () {
     layoutUpdateCallback.call();

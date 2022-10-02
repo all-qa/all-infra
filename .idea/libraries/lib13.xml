@@ -1,0 +1,53 @@
+<component name="libraryTable">
+  <library name="lib13">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-common-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/automaton-1.11-8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/okhttp-3.12.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-apiextensions-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-networking-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-events-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/openshift-model-console-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-autoscaling-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/okio-1.15.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/volumesnapshot-client-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-extensions-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-coordination-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-policy-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-batch-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-discovery-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/zjsonpatch-0.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/generex-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/openshift-model-operatorhub-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/openshift-model-monitoring-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/volumesnapshot-model-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/openshift-model-miscellaneous-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-client-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-rbac-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/openshift-model-clusterautoscaling-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-metrics-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-node-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/openshift-model-operator-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-apps-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-admissionregistration-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/openshift-client-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/openshift-model-hive-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/openshift-model-installer-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-scheduling-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-core-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/openshift-model-storageversionmigrator-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/openshift-model-machineconfig-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/openshift-model-whereabouts-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/openshift-model-tuned-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-certificates-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/openshift-model-machine-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-storageclass-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/logging-interceptor-3.12.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-client-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/openshift-model-5.12.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/kubernetes-client-api/WEB-INF/lib/kubernetes-model-flowcontrol-5.12.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="optional-lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/bouncycastle-api/WEB-INF/optional-lib/bcprov-jdk15on-1.70.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/bouncycastle-api/WEB-INF/optional-lib/bcutil-jdk15on-1.70.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/bouncycastle-api/WEB-INF/optional-lib/bcpkix-jdk15on-1.70.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

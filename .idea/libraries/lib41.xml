@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib41">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jjwt-api/WEB-INF/lib/jjwt-impl-0.11.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jjwt-api/WEB-INF/lib/jjwt-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jjwt-api/WEB-INF/lib/jjwt-api-0.11.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jjwt-api/WEB-INF/lib/jjwt-jackson-0.11.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

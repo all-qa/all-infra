@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="font-awesome-api">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/font-awesome-api/WEB-INF/lib/font-awesome-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

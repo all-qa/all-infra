@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/git-client/WEB-INF/lib/org.eclipse.jgit.http.server-5.13.1.202206130422-r.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/git-client/WEB-INF/lib/org.eclipse.jgit.http.apache-5.13.1.202206130422-r.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/git-client/WEB-INF/lib/git-client.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/git-client/WEB-INF/lib/JavaEWAH-1.1.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/git-client/WEB-INF/lib/org.eclipse.jgit.lfs-5.13.1.202206130422-r.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/git-client/WEB-INF/lib/org.eclipse.jgit-5.13.1.202206130422-r.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/git-client/WEB-INF/lib/gson-2.8.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/git-client/WEB-INF/lib/org.eclipse.jgit.ssh.jsch-5.13.1.202206130422-r.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

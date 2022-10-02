@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/pipeline-github/WEB-INF/lib/gson-2.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/pipeline-github/WEB-INF/lib/pipeline-github.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/pipeline-github/WEB-INF/lib/org.eclipse.egit.github.core-5.2.0.201812061821-r.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/pipeline-github/WEB-INF/lib/commons-lang3-3.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

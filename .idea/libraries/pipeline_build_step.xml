@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pipeline-build-step">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/pipeline-build-step/WEB-INF/lib/pipeline-build-step.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

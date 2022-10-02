@@ -24,11 +24,25 @@ spec:
           value: "4442"
         - name: SE_EVENT_BUS_SUBSCRIBE_PORT
           value: "4443"
+        - name: SE_VNC_NO_PASSWORD
+          value: "1"
+        - name: SE_NODE_MAX_SESSIONS
+          value: "4"
+        - name: SE_NODE_OVERRIDE_MAX_SESSIONS
+          value: "true"
         image: selenium/node-chrome:4.4.0-20220812
         imagePullPolicy: ""
         name: chrome
         resources: {}
+        volumeMounts:
+          - name: dshm
+            mountPath: /dev/shm
       restartPolicy: Always
       serviceAccountName: ""
-      volumes: null
+      volumes:
+        - name: dshm
+          emptyDir: { "medium": "Memory" }
 status: {}
+
+
+

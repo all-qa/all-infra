@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="matrix-auth">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/matrix-auth/WEB-INF/lib/matrix-auth.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

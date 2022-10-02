@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jdk-tool">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jdk-tool/WEB-INF/lib/jdk-tool.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jquery3-api">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jquery3-api/WEB-INF/lib/jquery3-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

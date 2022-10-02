@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pipeline-graph-analysis">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/pipeline-graph-analysis/WEB-INF/lib/pipeline-graph-analysis.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

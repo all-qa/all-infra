@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="docker-commons">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/docker-commons/WEB-INF/lib/docker-commons.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

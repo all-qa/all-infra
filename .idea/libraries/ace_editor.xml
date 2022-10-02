@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ace-editor">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/ace-editor/WEB-INF/lib/ace-editor.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -15,6 +15,15 @@ window.addEventListener("load", () => {
 
     return false;
   });
+  const pageSearchBar = document.querySelectorAll(".jenkins-search__input");
+
+  if (pageSearchBar.length === 1) {
+    (0,hotkeys_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .Z)("/", () => {
+      pageSearchBar[0].focus(); // Returning false stops the event and prevents default browser events
+
+      return false;
+    });
+  }
 });
 /**
  * Given a keyboard shortcut, e.g. CMD+K, replace any included modifier keys for the user's

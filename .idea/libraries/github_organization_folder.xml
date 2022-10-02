@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="github-organization-folder">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/github-organization-folder/WEB-INF/lib/github-organization-folder.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

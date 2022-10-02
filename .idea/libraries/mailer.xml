@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mailer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/mailer/WEB-INF/lib/mailer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

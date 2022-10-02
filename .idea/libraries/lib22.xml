@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib22">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jacoco/WEB-INF/lib/asm-analysis-9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jacoco/WEB-INF/lib/plexus-utils-3.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jacoco/WEB-INF/lib/asm-tree-9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jacoco/WEB-INF/lib/org.jacoco.core-0.8.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jacoco/WEB-INF/lib/asm-9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jacoco/WEB-INF/lib/asm-commons-9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jacoco/WEB-INF/lib/jacoco.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/jacoco/WEB-INF/lib/org.jacoco.report-0.8.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="lib38">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/okhttp-api/WEB-INF/lib/logging-interceptor-4.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/okhttp-api/WEB-INF/lib/okio-2.10.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/okhttp-api/WEB-INF/lib/kotlin-stdlib-1.4.20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/okhttp-api/WEB-INF/lib/okhttp-4.9.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/okhttp-api/WEB-INF/lib/annotations-13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/okhttp-api/WEB-INF/lib/kotlin-stdlib-common-1.4.20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/okhttp-api/WEB-INF/lib/kotlin-stdlib-jdk8-1.4.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/okhttp-api/WEB-INF/lib/kotlin-stdlib-jdk7-1.4.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/okhttp-api/WEB-INF/lib/okhttp-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

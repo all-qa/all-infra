@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cloudbees-folder">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/cloudbees-folder/WEB-INF/lib/cloudbees-folder.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

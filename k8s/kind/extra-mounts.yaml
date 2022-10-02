@@ -3,7 +3,7 @@ kind: Cluster
 nodes:
   - role: control-plane
     extraMounts:
-      - hostPath: /home/oleg/all-qa/all-infra/k8s/jenkins/jenkins_data
+      - hostPath: ./k8s/jenkins/jenkins_data
         containerPath: /jenkins/jenkins_data
       - hostPath: /var/run/docker.sock
         containerPath: /var/run/docker.sock

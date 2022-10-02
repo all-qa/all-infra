@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="lib12">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/allure-jenkins-plugin/WEB-INF/lib/truezip-swing-7.7.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/allure-jenkins-plugin/WEB-INF/lib/truezip-kernel-7.7.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/allure-jenkins-plugin/WEB-INF/lib/jackson-core-2.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/allure-jenkins-plugin/WEB-INF/lib/truezip-file-7.7.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/allure-jenkins-plugin/WEB-INF/lib/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/allure-jenkins-plugin/WEB-INF/lib/truezip-driver-file-7.7.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/allure-jenkins-plugin/WEB-INF/lib/annotation-indexer-1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/allure-jenkins-plugin/WEB-INF/lib/jackson-annotations-2.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/allure-jenkins-plugin/WEB-INF/lib/commons-compress-1.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/allure-jenkins-plugin/WEB-INF/lib/bcprov-jdk15on-1.70.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/allure-jenkins-plugin/WEB-INF/lib/symbol-annotation-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/allure-jenkins-plugin/WEB-INF/lib/jackson-databind-2.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/allure-jenkins-plugin/WEB-INF/lib/truezip-driver-zip-7.7.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
