@@ -19,6 +19,7 @@ docker pull selenium/sessions:$SELENIUM_VERSION
 #JIRA
 JIRA_VERSION=8.5.4
 docker pull atlassian/jira-software:$JIRA_VERSION
+docker pull postgres:9.6-alpine
 
 #JENKINS
 docker pull jenkins/jenkins:latest
@@ -26,6 +27,4 @@ docker pull jenkins/jnlp-agent-maven:jdk11
 
 #SONARQUBE
 docker pull sonarqube:community
-docker pull postgres:9.6
-docker pull postgres:12
 

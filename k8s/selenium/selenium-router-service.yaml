@@ -11,8 +11,6 @@ spec:
   selector:
     app: selenium-router
   ports:
-  - name: "4444"
+  - name: "selenium-router"
     port: 4444
     targetPort: 4444
-status:
-  loadBalancer: {}

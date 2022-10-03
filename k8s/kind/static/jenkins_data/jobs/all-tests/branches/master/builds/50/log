@@ -1,0 +1,302 @@
+Started by user [8mha:////4D1Cn1zi8TyCmHov/gGzlWBOeYtSccIWZx3mix20ZOxCAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Replayed [8mha:////4P4Jhvv1Klx3m/s4TD5FhpLl3a8U4HWsrv1zV866zpr1AAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgZZ/az8JP3EnBzdktTikmIwLzexuCS1SN/EUh8AfOpnitIAAAA=[0m#49
+[8mha:////4Ls+E5DbMRpr+q1MfbF/0U+JvYxP96EYNbHAYeKyil/6AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHTzrNWnjAFeBHhejgAAAA==[0mConnecting to https://api.github.com with no credentials, anonymous access
+Obtained Jenkinsfile from 075e3e23a20d85ece4cc92c41577517d8ae8803b
+[8mha:////4BNz/KkMaI8klxbharzYhLMs2kyzW+inZd4l8EYUG6V2AAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4CEiPcZJsUStPeVEPpwvR//lrd/CXEc70GryF5TbgbflAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQSbaGmsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfya1RxvAAAAA==[0m[Pipeline] echo
+[WARNING] label option is deprecated. To use a static pod template, use the 'inheritFrom' option.
+[8mha:////4BXLOxu6YRXWprf9210dj6XfjUk3lF4cxaV+Zt7hIVY5AAAApR+LCAAAAAAAAP9tjUEKwjAURH8qXbh16SFSEHfiym3IxhPEJMa04f82SW1XnsireQejBVcODMwMDO/5gjpFOFJ0vLXYeUza8z6MriQ+UeyugSbe0oVrwkTBcmknScaeliopW1jEKlgJWFvUgZJHl2EjWnVXTVDomnOOZTsIqLwZ4AFMFHJWMX/LHGF7G00i/HH+AmDuM7Bd8f7zq9/WVBy+wAAAAA==[0m[Pipeline] podTemplate
+[8mha:////4AqbP079fMXImKIWkauk38q+3hjXPrj88h5GMd8gADcAAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] {
+[8mha:////4EGNLjsfRndxRVW3GGHxblRhtWD2krGVTOvo0Qvub4nFAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] node
+Agent [8mha:////4EGjDnRJaLz10CaUJtwHOeHA8bK6KW1XO5r4I6jraFpgAAAApx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZp/eT83ILSktQi/aTSzJwU3dzEstQ83bSqvNxiABQsQF/QAAAA[0mbuild-maven-fznms is provisioned from template build-maven
+---
+apiVersion: "v1"
+kind: "Pod"
+metadata:
+  labels:
+    jenkins: "agent"
+    jenkins/label-digest: "7505d64a54e061b7acd54ccd58b49dc43500b635"
+    jenkins/label: "default"
+  name: "build-maven-fznms"
+  namespace: "jenkins"
+spec:
+  containers:
+  - command:
+    - "cat"
+    image: "jenkins/jnlp-agent-maven:jdk11"
+    imagePullPolicy: "IfNotPresent"
+    name: "maven"
+    resources:
+      limits:
+        memory: "1Gi"
+        cpu: "500m"
+      requests:
+        memory: "1Gi"
+        cpu: "500m"
+    tty: true
+    volumeMounts:
+    - mountPath: "/root/.m2"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/workspace"
+      name: "workspace-volume"
+      readOnly: false
+    workingDir: "/home/jenkins/workspace"
+  - env:
+    - name: "JENKINS_SECRET"
+      value: "********"
+    - name: "JENKINS_AGENT_NAME"
+      value: "build-maven-fznms"
+    - name: "JENKINS_WEB_SOCKET"
+      value: "true"
+    - name: "JENKINS_NAME"
+      value: "build-maven-fznms"
+    - name: "JENKINS_AGENT_WORKDIR"
+      value: "/home/jenkins/agent"
+    - name: "JENKINS_URL"
+      value: "http://jenkins.jenkins.svc.cluster.local:8080/"
+    image: "jenkins/inbound-agent:4.11-1-jdk11"
+    name: "jnlp"
+    resources:
+      limits: {}
+      requests:
+        memory: "256Mi"
+        cpu: "100m"
+    volumeMounts:
+    - mountPath: "/root/.m2"
+      name: "volume-1"
+      readOnly: false
+    - mountPath: "/var/run/docker.sock"
+      name: "volume-0"
+      readOnly: false
+    - mountPath: "/home/jenkins/agent"
+      name: "workspace-volume"
+      readOnly: false
+  hostNetwork: false
+  nodeSelector:
+    kubernetes.io/os: "linux"
+  restartPolicy: "Never"
+  volumes:
+  - hostPath:
+      path: "/var/run/docker.sock"
+    name: "volume-0"
+  - hostPath:
+      path: "/home/jenkins/.m2"
+    name: "volume-1"
+  - emptyDir:
+      medium: ""
+    name: "workspace-volume"
+
+Running on [8mha:////4KZrSQjux3+6LEkNL8u8MVXrkK+/b267SkYJwtbWJmyJAAAAsh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZ1/dzEvMT0VP3k/NyC0pLUIv2k0sycFFUjl9zEstQ8IJ1WlZdbrA8Am0VBcNwAAAA=[0mbuild-maven-fznms in /home/jenkins/agent/workspace/all-tests_master
+[8mha:////4Nb1XYFRUbGOLxf4T2+EUEIsfkpMdEkSu9Dq70Vx40IJAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] {
+[8mha:////4NgDDKg/M9jt8XwIkwNNy9jlvcYfbXg+FFArR6M5AIvNAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] ws
+Running in /home/jenkins/agent/workspace/97bf0e4d-a3fc-46e1-b12a-47e3e246927c
+[8mha:////4AweZkckOb2vWoJ8B/0RK2Sd6OTL2UuZi0jnkpbz1QgLAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] {
+[8mha:////4Hvfg//Nn0rXk99tBcDLz1bzDiUIQ3RozXX/87oIQ8vLAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDJUJUtJYbXmBiY5xYd8G+kFS8iK/xBwKRqNhqZ6XVPF9Q5gQHSl42DtuAuQ6yi72fmhwotZdIg2zoLGvCTNFJ7QZN1h1n1MQO5ogCFgqWDutIOaBnWKnG3E0VDfrqxGna9gqKYG/wAKEmM5vEXxgTrK+9zYQ/z18BjB2D2DEU283nWL4Bsam+msEAAAA=[0m[Pipeline] container
+[8mha:////4L7ihOiPXDqJiIQGHPTXOsZrVaeNX2RYB6YkJBxHnYgsAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4G8t7zdQskSo6JJuzUDiD97S2TCVSPF9gC8Q/2xshevLAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] withEnv
+[8mha:////4JRcNyvWYpOSgKxLuR4GzMroPKzKq0aTyCydveHr2L2uAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] {
+[8mha:////4GQn8dXowca7lE+yuU9P37YWcgIV3YhBa/zSnzIRVm3nAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] timeout
+Timeout set to expire in 1 hr 0 min
+[8mha:////4JrdK2n77QzJ5ZspzeQiol7sscZ6DLuTeY3L+aOm9pmxAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4CEbeeqUn5GVbX8XBIAkvQwKihhoq45B42ct6Gxsz5+uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUDLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD/s94rDCAAAA[0m[Pipeline] stage
+[8mha:////4KxU2o1T7GWr+H7wScT4xTg7OaF+rbCTPtOXzgA6RpYVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] { (e2e pipeline)
+[8mha:////4BY7FOKCepCSCEDN24tJ13rzZugztkcMppvohlXJb5cvAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] stage
+[8mha:////4Lb554YhWhU65ntLvq52yttbkTBSG4KQt9Euhp2L6TdlAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (Checkout e2e tests)
+[8mha:////4K4I1qW5sR1rpDNeL2BYSROEEuR6KsjqAWMuZ+9fjq3VAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] checkout
+The recommended git tool is: NONE
+No credentials specified
+Warning: JENKINS-30600: special launcher org.csanchez.jenkins.plugins.kubernetes.pipeline.ContainerExecDecorator$1@53e02c70; decorates RemoteLauncher[hudson.remoting.Channel@386b1601:build-maven-fznms] will be ignored (a typical symptom is the Git executable not being run inside a designated container)
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Cloning repository https://github.com/all-qa/all-tests.git
+ > git init /home/jenkins/agent/workspace/97bf0e4d-a3fc-46e1-b12a-47e3e246927c # timeout=10
+Fetching upstream changes from https://github.com/all-qa/all-tests.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --no-tags --force --progress -- https://github.com/all-qa/all-tests.git +refs/heads/master:refs/remotes/origin/master # timeout=10
+Avoid second fetch
+Checking out Revision 870af242f3626b0983dafdc9ae6dfc56a4bd6c9d (master)
+ > git config remote.origin.url https://github.com/all-qa/all-tests.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/master:refs/remotes/origin/master # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 870af242f3626b0983dafdc9ae6dfc56a4bd6c9d # timeout=10
+Commit message: "impvoring tests"
+ > git rev-list --no-walk 870af242f3626b0983dafdc9ae6dfc56a4bd6c9d # timeout=10
+[8mha:////4EvAL8f3XhhY0XmkHRu5qxJHBLW/e/dSHxY3yUuQf+k3AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiXWgpW+AAAA[0m[Pipeline] }
+[8mha:////4Ju60xpfwNeBo+eO+cpPXfLd3bMINjU7DCebf8LhdzjCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEdlBFkvgAAAA==[0m[Pipeline] // stage
+[8mha:////4ESBiX9n9MGNH0JYHwIvXlhUC/D5etunAb3/al91GT8oAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwMCAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wfb7j7P6g0UD6uJwgAAAA==[0m[Pipeline] stage
+[8mha:////4A9rCiMjeTkTyUqys0CjrossmYrgYFmvlt4dSU9KhRB5AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] { (Running e2e tests)
+[8mha:////4D/jiNuTVLjQ6KYnvzOi6vEIvac03QjvGDl9ozSTn7kHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN38C26S+AAAA[0m[Pipeline] sh
++ mvn clean verify -Dselenium.hub.url=http://selenium-router.selenium-grid.svc.cluster.local:4444 -Dselenium.browser=firefox -Dselenium.target.url=https://google.com
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< com.test:testng-docker >-----------------------
+[INFO] Building testng-docker 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ testng-docker ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ testng-docker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/jenkins/workspace/workspace/97bf0e4d-a3fc-46e1-b12a-47e3e246927c/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ testng-docker ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/jenkins/workspace/workspace/97bf0e4d-a3fc-46e1-b12a-47e3e246927c/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ testng-docker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ testng-docker ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /home/jenkins/workspace/workspace/97bf0e4d-a3fc-46e1-b12a-47e3e246927c/target/test-classes
+[INFO] /home/jenkins/workspace/workspace/97bf0e4d-a3fc-46e1-b12a-47e3e246927c/src/test/java/com/test/BaseE2eTest.java: /home/jenkins/workspace/workspace/97bf0e4d-a3fc-46e1-b12a-47e3e246927c/src/test/java/com/test/BaseE2eTest.java uses or overrides a deprecated API.
+[INFO] /home/jenkins/workspace/workspace/97bf0e4d-a3fc-46e1-b12a-47e3e246927c/src/test/java/com/test/BaseE2eTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M4:test (default-test) @ testng-docker ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ testng-docker ---
+[INFO] Building jar: /home/jenkins/workspace/workspace/97bf0e4d-a3fc-46e1-b12a-47e3e246927c/target/testng-docker.jar
+[INFO] 
+[INFO] --- maven-failsafe-plugin:3.0.0-M4:integration-test (e2e-tests) @ testng-docker ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+21:49:14,925 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+21:49:15,220 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+21:49:15,716 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+21:49:16,322 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+21:49:16,417 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+21:49:16,606 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@677120200 - Archive files will be limited to [10 MB] each.
+21:49:16,611 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@677120200 - No compression will be used
+21:49:16,612 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@677120200 - Will use the pattern target/logs/test/log%i.%d{yyyy-MM-dd}.log for the active file
+21:49:16,615 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73ff4fae - The date pattern is 'yyyy-MM-dd' from file name pattern 'target/logs/test/log%i.%d{yyyy-MM-dd}.log'.
+21:49:16,615 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73ff4fae - Roll-over at midnight.
+21:49:16,619 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@73ff4fae - Setting initial period to Sun Oct 02 21:49:16 UTC 2022
+21:49:16,621 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+21:49:16,708 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: target/logs/test/log0.2022-10-02.log
+21:49:16,709 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [null]
+21:49:16,713 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+21:49:16,714 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+21:49:16,717 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+21:49:16,806 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@6f603e89 - Registering current configuration as safe fallback point
+Oct 02, 2022 9:49:30 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+Oct 02, 2022 9:49:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+[21:49:48.609-TestNG-PoolService-0] INFO  com.test.BaseE2eTest - setting up things for thread: TestNG-PoolService-0 
+Oct 02, 2022 9:49:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+[21:49:49.117-TestNG-PoolService-1] INFO  com.test.BaseE2eTest - setting up things for thread: TestNG-PoolService-1 
+Oct 02, 2022 9:49:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+[21:49:50.044-TestNG-PoolService-2] INFO  com.test.BaseE2eTest - setting up things for thread: TestNG-PoolService-2 
+[21:49:52.618-TestNG-PoolService-1] WARN  c.t.AnnotationTransformerRetryListener$RetryAnalyzer - Going to retry test case: GoogleSearchEngineE2eTest.testGoogleSearchInputReturnsResult(java.lang.String)[pri:0, instance:com.test.GoogleSearchEngineE2eTest@6232ffdb], 1 out of 3 
+[21:49:52.626-TestNG-PoolService-1] INFO  com.test.BaseE2eTest - tearing down things for thread: TestNG-PoolService-1 
+[21:49:52.725-TestNG-PoolService-0] WARN  c.t.AnnotationTransformerRetryListener$RetryAnalyzer - Going to retry test case: GoogleSearchEngineE2eTest.testGoogleSearchInputReturnsResult(java.lang.String)[pri:0, instance:com.test.GoogleSearchEngineE2eTest@6232ffdb], 2 out of 3 
+[21:49:52.726-TestNG-PoolService-0] INFO  com.test.BaseE2eTest - tearing down things for thread: TestNG-PoolService-0 
+[21:49:52.919-TestNG-PoolService-2] WARN  c.t.AnnotationTransformerRetryListener$RetryAnalyzer - Going to retry test case: GoogleSearchEngineE2eTest.testGoogleSearchInputReturnsResult(java.lang.String)[pri:0, instance:com.test.GoogleSearchEngineE2eTest@6232ffdb], 3 out of 3 
+[21:49:52.929-TestNG-PoolService-2] INFO  com.test.BaseE2eTest - tearing down things for thread: TestNG-PoolService-2 
+Oct 02, 2022 9:50:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+[21:50:02.936-TestNG-PoolService-1] INFO  com.test.BaseE2eTest - setting up things for thread: TestNG-PoolService-1 
+Oct 02, 2022 9:50:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+[21:50:03.954-TestNG-PoolService-0] INFO  com.test.BaseE2eTest - setting up things for thread: TestNG-PoolService-0 
+Oct 02, 2022 9:50:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+[21:50:05.065-TestNG-PoolService-2] INFO  com.test.BaseE2eTest - setting up things for thread: TestNG-PoolService-2 
+[21:50:05.679-TestNG-PoolService-1] INFO  com.test.BaseE2eTest - tearing down things for thread: TestNG-PoolService-1 
+[21:50:06.440-TestNG-PoolService-0] INFO  com.test.BaseE2eTest - tearing down things for thread: TestNG-PoolService-0 
+[21:50:07.473-TestNG-PoolService-2] INFO  com.test.BaseE2eTest - tearing down things for thread: TestNG-PoolService-2 
+[ERROR] Tests run: 6, Failures: 3, Errors: 0, Skipped: 3, Time elapsed: 55.808 s <<< FAILURE! - in TestSuite
+[ERROR] com.test.GoogleSearchEngineE2eTest.testGoogleSearchInputReturnsResult  Time elapsed: 0.614 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-40-generic', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0.2, moz:accessibilityChecks: false, moz:buildID: 20220808125904, moz:debuggerAddress: localhost:57429, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 5.11.0-40-generic, moz:processID: 4215, moz:profile: /tmp/rust_mozprofileoTMFTb, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://10.244.0.13:4444/sessi..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://10.244.0.13:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.244.0.13:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+
+[ERROR] com.test.GoogleSearchEngineE2eTest.testGoogleSearchInputReturnsResult  Time elapsed: 1.374 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-40-generic', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0.2, moz:accessibilityChecks: false, moz:buildID: 20220808125904, moz:debuggerAddress: localhost:60892, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 5.11.0-40-generic, moz:processID: 4421, moz:profile: /tmp/rust_mozprofileGZyUxD, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://10.244.0.13:4444/sessi..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://10.244.0.13:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.244.0.13:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+
+[ERROR] com.test.GoogleSearchEngineE2eTest.testGoogleSearchInputReturnsResult  Time elapsed: 2.407 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-40-generic', java.version: '11.0.9.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 103.0.2, moz:accessibilityChecks: false, moz:buildID: 20220808125904, moz:debuggerAddress: localhost:50815, moz:firefoxOptions: {}, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 5.11.0-40-generic, moz:processID: 4652, moz:profile: /tmp/rust_mozprofilegY9FaD, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://10.244.0.13:4444/sessi..., se:cdpVersion: 85.0, se:noVncPort: 7900, se:vnc: ws://10.244.0.13:4444/sessi..., se:vncEnabled: true, se:vncLocalAddress: ws://10.244.0.13:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR] com.test.GoogleSearchEngineE2eTest.testGoogleSearchInputReturnsResult
+[INFO]   Run 1: PASS
+[INFO]   Run 2: PASS
+[INFO]   Run 3: PASS
+[ERROR]   Run 4: GoogleSearchEngineE2eTest>BaseE2eTest.run:97->BaseE2eTest.takeScreenShot:106 » NoSuchSession
+[ERROR]   Run 5: GoogleSearchEngineE2eTest>BaseE2eTest.run:97->BaseE2eTest.takeScreenShot:106 » NoSuchSession
+[ERROR]   Run 6: GoogleSearchEngineE2eTest>BaseE2eTest.run:97->BaseE2eTest.takeScreenShot:106 » NoSuchSession
+[INFO] 
+[INFO] 
+[ERROR] Tests run: 1, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:28 min
+[INFO] Finished at: 2022-10-02T21:50:10Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4Cu8TfYVpSlnNpzj54cPcALdoJGaAc9Uz2s4ayxkfDfuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHjyRvdvgAAAA==[0m[Pipeline] }
+[8mha:////4PYArsxxCAbBD++ESHt0QTKUpJW1FMt7++/PJZitmeihAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHljyOIvgAAAA==[0m[Pipeline] // stage
+[8mha:////4OSoU5DsoMdw44ixhhjmz96684gQ9Ytd4RzDt6oGxoGbAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsICEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXb7j/P6g3X/2zjwgAAAA==[0m[Pipeline] stage
+[8mha:////4IyvhWc1Q70Z8kSayvfhw7qrMbQ91gvsHr/Bt/JapLp/AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] { (Publishing e2e reports)
+[8mha:////4ELR9+QksZtiK1eTmo/9JxrjTpGzMoKuztXNsCSlAgE/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] allure
+[8mha:////4C/f5RVvkWQe7cctVCIZoS5Ly2zY3R9RRsP8IrQDTVUcAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
+[8mha:////4OERorgFZqiju6sWWQ47XmaVpvtgvNmkKeqpsyT0j3MjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // stage
+[8mha:////4D2Z7qjdfeOnQdYKejb0b2ICGz0m+9FZbKHIoBJZIauJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRSkGBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2Ccr9IVdd+w+w0iRMvgAAAA==[0m[Pipeline] echo
+Cannot publish allure reports
+[8mha:////4Bq/9Qf9Nmke7r8AjWmMTLw+vQEhmgt9j90bf/Z6dnVJAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryt8+1PXwAJWGAhL4AAAA=[0m[Pipeline] }
+[8mha:////4FAMSorXc56Gn8/rI+Lc+ualc2N7EvFwbNXLHSDbrOj7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKBBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw8Wgts4vgAAAA==[0m[Pipeline] // stage
+[8mha:////4Mg8OdTwpwuYCkyEz855oQfb0zBxEeT/g/wAX8qSYQQgAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCMGCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXb7j/P6g3SLH0nwgAAAA==[0m[Pipeline] stage
+[8mha:////4Ba4+v+1PEyTfX5N2xQr9PaazHuuzdBBPbY6PLAHwmauAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4EwBZOeU34v6KNBy4jV5d8qChWYgYdUpflmew7y4JqTGAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEGDPXtvgAAAA==[0m[Pipeline] cleanWs
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+[8mha:////4CUldTwTP6NCUnECW2MC6ACYS/6hJim1n8NqaMH5YkgUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUCCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQF5ECgKvgAAAA==[0m[Pipeline] }
+[8mha:////4Jzw35uQuTthKaYHBVoBoICcYoOYAX/yEx+7BB1qtnBZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+pT4efvgAAAA==[0m[Pipeline] // stage
+[8mha:////4AM3oRM1WJdCsyYRN4dZ54xJXCKNqTc51a+bC3DMLQXsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiSFAhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AE0r+T/vgAAAA==[0m[Pipeline] }
+[8mha:////4IU4m6WXLIZCnTHfvsd483oUxiSVj8FF50QcZu+UY56uAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGV9yLWvPwztdw6+AAAA[0m[Pipeline] // timeout
+[8mha:////4HyTfaXabRelPdjggaBw4s5yIZnkVvbg7GkjB/+vBUAMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRCh2iSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzrWvPwqrT1u+AAAA[0m[Pipeline] }
+[8mha:////4CrBGqfyfxMRSQdQwnYVsE8B838Q5h6krIHkU+WX1IZLAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUDpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BGVd59ofPiSrTTG+AAAA[0m[Pipeline] // withEnv
+[8mha:////4ETdFqWbEpLJqYmPswmGOqx3n1+5dc6n6W8i68WSrlY9AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiSFAhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3h1x1/QE7KRhjvgAAAA==[0m[Pipeline] }
+[8mha:////4FFq1l4MEX+ry9KiIeoM8oDg+EpwitbLo79hJ4zs/BsCAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEqJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuD7l22w8Da4uSvgAAAA==[0m[Pipeline] // container
+[8mha:////4Pm/pCLMhDwH2UC7a+vUd/Dup/wWyg8lr0uN6FRANgkBAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpkBBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/AJsaGU69AAAA[0m[Pipeline] }
+[8mha:////4OdDZJ2dMxOntuxuFabBP4hGl6DkyHJHWv3emkxh98VoAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IsDiTGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8F+b4UZOUH3L1Ou70AAAA=[0m[Pipeline] // ws
+[8mha:////4FVJmITHsrA0woUgJSIU7TSKjsLkBmgFROI2iZShgh7tAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpkBBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5Nu9INt9AP2JkRa9AAAA[0m[Pipeline] }
+[8mha:////4LjeQsZSIvb0YgVAjJDldMO7zSdXBqTnLmIwRtcNTVq/AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiLYaONY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfId1tBtv8Avwjap70AAAA=[0m[Pipeline] // node
+[8mha:////4DEd1KaJjm+vvllAnKq1+DwjDo0roDJEwzdaQ5QqcmzEAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiKMBZVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL/eCrPwAtXCzA70AAAA=[0m[Pipeline] }
+[8mha:////4K/T0EfORdCMvWd58BRcNUqW35XfoI4X9Fxj2pTF1K44AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKREFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8VZLsP8zoUM70AAAA=[0m[Pipeline] // podTemplate
+[8mha:////4D6Vf3syB1QAoS7IBh2pRtRyJYrKP7azfpSEopUQLchvAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPdrYX570AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

@@ -1,0 +1,3 @@
+2022-10-03 00:01:00,048+0000 category: overall, apdex: {apdexScore=75, satisfiedCount=1, toleratingCount=1, frustratedCount=0}
+2022-10-03 00:01:00,048+0000 category: jira.header.menu.profile, apdex: {apdexScore=100, satisfiedCount=1, toleratingCount=0, frustratedCount=0}
+2022-10-03 00:01:00,048+0000 category: jira.dashboard, apdex: {apdexScore=50, satisfiedCount=0, toleratingCount=1, frustratedCount=0}

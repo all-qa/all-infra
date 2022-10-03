@@ -1,0 +1,45 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: postgre
+  namespace: jira
+  labels:
+    app: postgre
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: postgre
+  template:
+    metadata:
+      labels:
+        app: postgre
+    spec:
+      containers:
+        - env:
+          - name: POSTGRES_USER
+            value: jira
+          - name: POSTGRES_PASSWORD
+            value: jellyfish
+          - name: POSTGRES_DB
+            value: jiradb
+          - name: POSTGRES_ENCODING
+            value: UNICODE
+          - name: POSTGRES_COLLATE
+            value: C
+          - name: POSTGRES_COLLATE_TYPE
+            value: C
+          image: postgres:9.6-alpine
+          imagePullPolicy: "IfNotPresent"
+          name: postgre
+          ports:
+            - containerPort: 5432
+          volumeMounts:
+          - mountPath: /var/lib/postgresql/data
+            name: postgresqldata
+      volumes:
+        - name: postgresqldata
+          hostPath:
+            path: /jira/postgresqldata
+            type: Directory
+status: {}
