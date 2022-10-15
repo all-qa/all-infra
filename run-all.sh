@@ -6,9 +6,7 @@ infoMessage() {
 
 #./pull-images.sh
 
-#sudo chmod -R 700 k8s/kind/static/jira_data
-#sudo chmod -R u=rwx,g=rx,o=rx k8s/kind/static/jira_data
-#sudo chown -R 2002:2002 k8s/kind/static/jira_data
+#sudo chmod -R 777 k8s/kind/static/jira_data
 #sudo chmod -R 700 k8s/kind/static/postgresqldata
 infoMessage "Creating cluster"
 ./k8s/kind/kind create cluster --config k8s/kind/extra-mounts.yaml --image kindest/node:v1.24.0
