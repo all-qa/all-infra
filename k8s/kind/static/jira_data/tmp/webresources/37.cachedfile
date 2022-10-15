@@ -1,0 +1,54 @@
+;
+/* module-key = 'com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-form-drop-zone', location = 'js/dropzones/FormDropZone.js' */
+define("dndattachment/dropzones/FormDropZone",["require"],function(a){var m=a("jira/util/logger");var c=a("jira/util/events/types");var k=a("underscore");var i=a("jira/jquery/deferred");var d=a("dndattachment/Parser");var h=a("dndattachment/dropzones/IssueDropZone");var e=a("jquery");var l=a("dndattachment/aui/dialog2");var b=a("dndattachment/i18n");var f=a("dndattachment/util/DataTransfer");var g=a("dndattachment/ctrlv/utility");var n=a("jira/util/events");var j=h.extend({eventGroup:"formdropzone",init:function(){this._super.apply(this,arguments);this.progressBars=[];this.bind("uploadFinished",this.onUploadFinished.bind(this));this.$containerNode=this.getContainerNode();this.$formNode=this.$node.parents("form");this.formToken=this.$formNode.find('input[name="formToken"]').attr("value");this.$inputNode=e('<input name="dnd-dropzone" type="hidden" />').insertAfter(this.$node);this.$fieldNode=this.$node.parents(".field-group");this.$fieldNode.addClass("long-field");this.connectContainer()},onUploadFinished:function(p,q){var o=e('<input type="checkbox" name="filetoconvert"/>').addClass("upload-progress-bar__checkbox").attr("value",q.fileID).attr("id","filetoconvert-"+q.fileID).prop("checked",true).insertBefore(q.$node);q.bind("onBeforeDestroy",function(){o.prop("checked",false).prop("value",null)});setTimeout(function(){q.$node.addClass("upload-progress-bar__upload-ready");q.setIcon("aui-iconfont-close-dialog")},1000);m.trace("jira.issue.dnd.uploadfinished")},commitUpload:function(o){this.queueEvent("commitUpload",{count:o.length});return new i()},getContainerNode:function(){return this.$node.parents(".jira-dialog-content")},connectContainer:function(){this.$dragoverMask=e('<div class="attach-files-drop-zone__dragover-mask" />');this.$dragoverMask.appendTo(this.$containerNode);this.$body=e(document.body);this.onDragOverDropHandler=this.onDragOverDrop.bind(this);this.onDragLeaveHandler=this.onDragLeave.bind(this);this.onBodyDragOverDropHandler=this.onBodyDragOverDrop.bind(this);this.$containerNode.on("dragover drop",this.onDragOverDropHandler);this.$containerNode.on("dragleave",this.onDragLeaveHandler);this.$body.on("dragover drop",this.onBodyDragOverDropHandler);this.onBeforeSubmitHandler=this.onBeforeSubmit.bind(this);this.$formNode.on("before-submit",this.onBeforeSubmitHandler);this.onContentAddedHandler=this.onContentAdded.bind(this);n.bind(c.NEW_CONTENT_ADDED,this.onContentAddedHandler);n.bind("Dialog.hide",this.onDialogHide.bind(this));if(l){l.on("hide",this.onDialogHide.bind(this))}},disconnectContainer:function(){this.$dragoverMask.remove();this.$containerNode.removeClass("attach-files-drop-zone__dragover");this.$containerNode.off("dragover drop",this.onDragOverDropHandler);this.$containerNode.off("dragleave",this.onDragLeaveHandler);this.$formNode.off("before-submit",this.onBeforeSubmitHandler);n.unbind(c.NEW_CONTENT_ADDED,this.onContentAddedHandler);n.unbind("Dialog.hide",this.onDialogHide.bind(this));if(l){l.off("hide",this.onDialogHide.bind(this))}},isAttached:function(){return e.contains(document,this.$node[0])},onContentAdded:function(){if(!this.isAttached()){this.disconnectContainer()}},onDialogHide:function(){this.$body.off("dragover drop",this.onBodyDragOverDropHandler)},onBodyDragOverDrop:function(o){o.preventDefault();if(o.originalEvent){o.originalEvent.dataTransfer.dropEffect="none"}},onDragOverDrop:function(o){if(!this.isAttached()){this.disconnectContainer();return}if(!g.dragEventContainsFiles(o)){return}o.preventDefault();o.stopPropagation();if(o.originalEvent){o.originalEvent.dataTransfer.dropEffect="copy"}this.$containerNode.addClass("attach-files-drop-zone__dragover");if(o.type=="drop"){this.$containerNode.removeClass("attach-files-drop-zone__dragover");e(document).trigger("dropHandled");var p=new f(o.dataTransfer);p.getFiles().then(function(q){this.handleFilesReceived(q);this.queueEvent("fileDrop",{count:q.length})}.bind(this))}},onDragLeave:function(){this.$containerNode.removeClass("attach-files-drop-zone__dragover")},onBeforeSubmit:function(o){if(this.isDirty){o.preventDefault();var p={};p[this.$inputNode.attr("name")]=b("dnd.attachment.upload.in.progress");JIRA.applyErrorsToForm(this.$formNode,p);this.$formNode.find(".error").toArray().some(function(q){q.scrollIntoView()})}},markDirty:function(o){h.prototype.markDirty.apply(this,arguments);this.isDirty=o;m.trace(o?"jira.issue.dnd.isdirty":"jira.issue.dnd.isclear")},handleNewProgressBar:function(o){this.progressBars.push(o);o.bind("onBeforeDestroy",k.bind(function(){this.trigger("progressBarOnBeforeDestroy",o);this.progressBars=k.filter(this.progressBars,function(p){return p!==o});if(this.progressBars.length===0){this.trigger("allUploadsCancelled")}},this));o.bind("onDestroy",k.bind(function(){this.trigger("progressBarDestroyed")},this));o.bind("onFinished",k.bind(function(){this.trigger("progressBarFinished")},this));o.bind("onFailed",k.bind(function(){this.trigger("progressBarFailed")},this));this.trigger("progressBarStarted")},filesStillUploading:function(){return k.filter(this.progressBars,function(o){return !o.isFinished()}).length>0},anyFilesFailed:function(){return k.filter(this.progressBars,function(o){return o.isFailed()}).length>0}});return j});;
+;
+/* module-key = 'com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-create-issue-drop-zone', location = 'js/dropzones/AttachFilesDropZone.js' */
+define("dndattachment/dropzones/AttachFilesDropZone",["require"],function(b){var a=b("jira/jquery/deferred");var c=b("dndattachment/dropzones/FormDropZone");return c.extend({eventGroup:"attachfiledropzone",init:function(){this._super.apply(this,arguments);this.bind("progressBarInserted",function(d,f){var e=new a();this.queueTask(e);f.result.done(e.resolve.bind(e));f.bind("onBeforeDestroy",function(){e.resolve()})}.bind(this))},checkMarkDirty:function(){if(this.pendingQueue.length<=1){this.markDirty(false)}}})});;
+;
+/* module-key = 'com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-create-issue-drop-zone', location = 'js/dropzones/CreateIssueDropZone.js' */
+define("dndattachment/dropzones/CreateIssueDropZone",["require"],function(d){var c=d("underscore");var f=d("jquery");var e=d("dndattachment/dropzones/FormDropZone");var b=d("dndattachment/progressbars/UploadProgressBar");var a=e.extend({eventGroup:"createissuedropzone",progressBarType:"dndattachment/progressbars/ProjectUploadProgressBar",getContainerNode:function(){return f(this.$node.parents(".jira-dialog-content")[0]||this.$node.parents("form#issue-create").parents(".aui-page-panel-content")[0]||this.$node.parents("form.dnd-attachment-support")[0])},handleNewProgressBar:function(g){this._super.apply(this,arguments);g.bind("onDestroy onFinished",c.bind(function(){if(!this.filesStillUploading()){var h={};h[this.$inputNode.attr("name")]="";JIRA.applyErrorsToForm(this.$formNode,h)}},this))}});return a});;
+;
+/* module-key = 'com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-create-issue-drop-zone', location = 'js/progressbars/ProjectUploadProgressBar.js' */
+define("dndattachment/progressbars/ProjectUploadProgressBar",["require"],function(b){var c=b("jquery");var a=b("dndattachment/progressbars/UploadProgressBar");return a.extend({getProjectId:function(){return this.$node.parents("form").find("*[name=pid]").val()},getUploadParams:function(d){var e=a.prototype.getUploadParams.apply(this,arguments);if(this.getProjectId()){e.projectId=this.getProjectId()}return e},loadThumbnail:function(e){if(!this.isImageType()){var h=this.getThumbnailNode();h.removeClass("upload-progress-bar__thumbnail_image").addClass("upload-progress-bar__thumbnail_icon").addClass("upload-progress-bar__thumbnail_icon_aui");var d="aui-iconfont-devtools-file";var g="File";if(typeof e==="object"){d=JIRA.Templates.ViewIssue.matchFileClass({mimetype:e.type});g=JIRA.Templates.ViewIssue.matchFileIconAlt({mimetype:e.type})}var f=c('<span class="aui-icon aui-icon-large"/>').addClass(d).attr("title",g);return f.appendTo(h)}else{return this._super.apply(this,arguments)}}})});;
+;
+/* module-key = 'com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-create-issue-drop-zone', location = 'templates/AttachFilesDropZone.soy' */
+// This file was automatically generated from AttachFilesDropZone.soy.
+// Please don't edit this file by hand.
+
+/**
+ * @fileoverview Templates in namespace JIRA.Templates.DnDAttachmentPlugin.
+ */
+
+if (typeof JIRA == 'undefined') { var JIRA = {}; }
+if (typeof JIRA.Templates == 'undefined') { JIRA.Templates = {}; }
+if (typeof JIRA.Templates.DnDAttachmentPlugin == 'undefined') { JIRA.Templates.DnDAttachmentPlugin = {}; }
+
+
+JIRA.Templates.DnDAttachmentPlugin.AttachFilesDropZone = function(opt_data, opt_ignored) {
+  return '<div duiType="dndattachment/dropzones/AttachFilesDropZone" class="issue-drop-zone" data-upload-limit="' + soy.$$escapeHtml(opt_data.jiraAttachmentSize) + '" data-upload-size="' + soy.$$escapeHtml(opt_data.uploadLimit) + '"></div>';
+};
+if (goog.DEBUG) {
+  JIRA.Templates.DnDAttachmentPlugin.AttachFilesDropZone.soyTemplateName = 'JIRA.Templates.DnDAttachmentPlugin.AttachFilesDropZone';
+}
+;
+;
+/* module-key = 'com.atlassian.jira.plugins.jira-dnd-attachment-plugin:dnd-create-issue-drop-zone', location = 'templates/CreateIssueDropZone.soy' */
+// This file was automatically generated from CreateIssueDropZone.soy.
+// Please don't edit this file by hand.
+
+/**
+ * @fileoverview Templates in namespace JIRA.Templates.DnDAttachmentPlugin.
+ */
+
+if (typeof JIRA == 'undefined') { var JIRA = {}; }
+if (typeof JIRA.Templates == 'undefined') { JIRA.Templates = {}; }
+if (typeof JIRA.Templates.DnDAttachmentPlugin == 'undefined') { JIRA.Templates.DnDAttachmentPlugin = {}; }
+
+
+JIRA.Templates.DnDAttachmentPlugin.CreateIssueDropZone = function(opt_data, opt_ignored) {
+  return '<div duiType="dndattachment/dropzones/CreateIssueDropZone" class="issue-drop-zone" data-upload-limit="' + soy.$$escapeHtml(opt_data.jiraAttachmentSize) + '" data-upload-size="' + soy.$$escapeHtml(opt_data.uploadLimit) + '"></div>' + ((opt_data.description) ? '<div class="description">' + soy.$$escapeHtml(opt_data.description) + '</div>' : '');
+};
+if (goog.DEBUG) {
+  JIRA.Templates.DnDAttachmentPlugin.CreateIssueDropZone.soyTemplateName = 'JIRA.Templates.DnDAttachmentPlugin.CreateIssueDropZone';
+}
+;
