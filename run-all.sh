@@ -7,6 +7,8 @@ infoMessage() {
 #./pull-images.sh
 
 #sudo chmod -R 700 k8s/kind/static/jira_data
+#sudo chmod -R u=rwx,g=rx,o=rx k8s/kind/static/jira_data
+#sudo chown -R 2002:2002 k8s/kind/static/jira_data
 #sudo chmod -R 700 k8s/kind/static/postgresqldata
 infoMessage "Creating cluster"
 ./k8s/kind/kind create cluster --config k8s/kind/extra-mounts.yaml --image kindest/node:v1.24.0
@@ -16,6 +18,7 @@ unzip docker-images/allure-testops/allure-testops.zip -d docker-images/allure-te
 ./k8s/kind/kind load image-archive docker-images/allure-testops/allure-gateway-4.7.0.tar
 ./k8s/kind/kind load image-archive docker-images/allure-testops/allure-report-4.7.0.tar
 ./k8s/kind/kind load image-archive docker-images/allure-testops/allure-uaa-4.7.0.tar
+rm docker-images/allure-testops/allure-*.tar
 
 infoMessage "Setting kind-kind context"
 kubectl config use-context kind-kind
