@@ -29,7 +29,7 @@ spec:
             value: C
           - name: POSTGRES_COLLATE_TYPE
             value: C
-          image: postgres:9.6-alpine
+          image: postgres:9.6
           imagePullPolicy: "IfNotPresent"
           name: postgre
           ports:
