@@ -496,7 +496,7 @@ const handleFilter = function () {
 const debouncedFilter = lodash_debounce__WEBPACK_IMPORTED_MODULE_0___default()(handleFilter, 300);
 document.addEventListener("DOMContentLoaded", function () {
   // Apply correct styling upon filter bar text change, call API after wait
-  pageSearchInput.addEventListener("input", function () {
+  pageSearchInput === null || pageSearchInput === void 0 ? void 0 : pageSearchInput.addEventListener("input", function () {
     pageSearchInputContainer.classList.add("jenkins-search--loading");
     buildHistoryContainer.classList.add("jenkins-pane--loading");
     noBuildsBanner.style.display = "none";

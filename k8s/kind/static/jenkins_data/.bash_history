@@ -55,3 +55,9 @@ exit
 llure
 allure
 exit
+curl http://localhost
+curl http://localhost:8080
+curl http://allure-testops.allure-testops-gateway.svc.cluster.local:8080/
+curl http://allure-testops-gateway.allure-testops.svc.cluster.local:8080/
+curl http://allure-testops-gateway.allure-testops.svc.cluster.local:8080/login
+exit

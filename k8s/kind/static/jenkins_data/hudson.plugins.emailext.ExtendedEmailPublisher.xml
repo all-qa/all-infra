@@ -1,8 +1,7 @@
 <?xml version='1.1' encoding='UTF-8'?>
-<hudson.plugins.emailext.ExtendedEmailPublisherDescriptor plugin="email-ext@2.83">
+<hudson.plugins.emailext.ExtendedEmailPublisherDescriptor plugin="email-ext@2.91">
   <mailAccount>
     <smtpPort>25</smtpPort>
-    <smtpPassword>{AQAAABAAAAAQ1U4zfnw5TMod56m8FnUOFmpyGSGm8RsKWa2sZigfC/Q=}</smtpPassword>
     <useSsl>false</useSsl>
     <useTls>false</useTls>
     <advProperties></advProperties>

@@ -336,3 +336,642 @@ Managed Issue Link Types
 	Epic Link Issue Link Type       id=10200                   name=Epic-Story Link                 
 
 2022-10-02 23:56:53,976 Caesium-1-4 INFO      [manager.lexorank.collation.CollationIntegrityCheckerImpl]  Collation check performed against LexoRank table: OK
+2022-10-04 17:15:22,540 ThreadPoolAsyncTaskExecutor::Thread 2 INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin starting...
+*********************************************************************************
+
+2022-10-04 17:15:22,575 ThreadPoolAsyncTaskExecutor::Thread 2 INFO      [greenhopper.service.logging.LogSupport] 
+
+JIRA Agile Run History
+
+	*JIRA Agile v8.5.4 (831d15f2f885a2b0) started at 02 Oct 2022 11:24
+
+
+2022-10-04 17:15:22,586 ThreadPoolAsyncTaskExecutor::Thread 2 INFO      [greenhopper.service.logging.LogSupport] 
+
+The following JIRA Agile upgrade tasks have been run on this system
+
+	JAG UpgradeTask  46 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  46 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+	JAG UpgradeTask  47 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  47 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  48 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  48 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 2 ms
+	JAG UpgradeTask  49 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  49 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 15 ms
+	JAG UpgradeTask  50 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  50 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  51 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  51 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+
+2022-10-04 17:15:22,587 ThreadPoolAsyncTaskExecutor::Thread 2 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK]: com.atlassian.greenhopper.service.lexorank.LexoRankIssueEventListener
+2022-10-04 17:15:22,587 ThreadPoolAsyncTaskExecutor::Thread 2 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [EPIC_LINK]: com.atlassian.greenhopper.customfield.epiclink.EpicLinkIssueEventListener
+2022-10-04 17:15:22,587 ThreadPoolAsyncTaskExecutor::Thread 2 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [ISSUE_CLOSED]: com.atlassian.greenhopper.issue.RemoveFutureSprintsFromClosedIssuesListener
+2022-10-04 17:15:22,587 ThreadPoolAsyncTaskExecutor::Thread 2 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [CACHE_MANAGER]: com.atlassian.greenhopper.service.GreenHopperCacheManager
+2022-10-04 17:15:22,587 ThreadPoolAsyncTaskExecutor::Thread 2 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [RANK_INDEX_SERVICE]: com.atlassian.greenhopper.service.rank.RankIndexServiceImpl
+2022-10-04 17:15:22,587 ThreadPoolAsyncTaskExecutor::Thread 2 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_FIELD]: com.atlassian.greenhopper.customfield.lexorank.LexoRankCFListener
+2022-10-04 17:15:22,588 ThreadPoolAsyncTaskExecutor::Thread 2 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_BALANCING_EVENT]: com.atlassian.greenhopper.service.lexorank.balance.LexoRankBalancingService
+2022-10-04 17:15:22,588 ThreadPoolAsyncTaskExecutor::Thread 2 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [INDEX_CHECK_SERVICE]: com.atlassian.greenhopper.service.index.IndexCheckServiceImpl
+2022-10-04 17:15:22,588 ThreadPoolAsyncTaskExecutor::Thread 2 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [QUERY_MAPPER_CACHE]: com.atlassian.greenhopper.service.query.QueryToProjectMapper
+2022-10-04 17:15:22,588 ThreadPoolAsyncTaskExecutor::Thread 2 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [AUDIT_LOG]: com.atlassian.greenhopper.auditing.AuditingEventListener
+2022-10-04 17:15:23,976 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin started.  Get Agile!
+*********************************************************************************
+
+2022-10-04 17:15:27,418 JIRA-Bootstrap INFO      [com.atlassian.greenhopper.Launcher] Registering dynamic modules
+2022-10-04 17:15:28,515 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Initialising LexoRank Balancing Service
+2022-10-04 17:15:28,516 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Scheduler job already present in db, not scheduling again
+2022-10-04 17:15:28,517 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] LexoRank Balancing Service is initialised, foregroundIndexRunning=false
+2022-10-04 17:15:28,683 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+Managed Issue Types
+	Epic                            id=10000                   name=Epic                            
+	Story                           id=10001                   name=Story                           
+
+
+Managed Custom Fields
+	Epic Colour                     id=customfield_10103       name=Epic Color                      type=com.pyxis.greenhopper.jira:gh-epic-color
+	Epic Link                       id=customfield_10100       name=Epic Link                       type=com.pyxis.greenhopper.jira:gh-epic-link
+	Epic Name                       id=customfield_10102       name=Epic Name                       type=com.pyxis.greenhopper.jira:gh-epic-label
+	Epic Status                     id=customfield_10101       name=Epic Status                     type=com.pyxis.greenhopper.jira:gh-epic-status
+	Default Global Rank             id=customfield_10105       name=Rank                            type=com.pyxis.greenhopper.jira:gh-lexo-rank
+	Sprint                          id=customfield_10104       name=Sprint                          type=com.pyxis.greenhopper.jira:gh-sprint
+	Story Points                    id=customfield_10106       name=Story Points                    type=com.atlassian.jira.plugin.system.customfieldtypes:float
+
+
+Managed Issue Link Types
+	Epic Link Issue Link Type       id=10200                   name=Epic-Story Link                 
+
+2022-10-04 17:15:29,581 Caesium-1-1 INFO ServiceRunner     [manager.lexorank.collation.CollationIntegrityCheckerImpl]  Collation check performed against LexoRank table: OK
+2022-10-04 21:12:53,226 ThreadPoolAsyncTaskExecutor::Thread 18 INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin starting...
+*********************************************************************************
+
+2022-10-04 21:12:53,251 ThreadPoolAsyncTaskExecutor::Thread 18 INFO      [greenhopper.service.logging.LogSupport] 
+
+JIRA Agile Run History
+
+	*JIRA Agile v8.5.4 (831d15f2f885a2b0) started at 02 Oct 2022 11:24
+
+
+2022-10-04 21:12:53,264 ThreadPoolAsyncTaskExecutor::Thread 18 INFO      [greenhopper.service.logging.LogSupport] 
+
+The following JIRA Agile upgrade tasks have been run on this system
+
+	JAG UpgradeTask  46 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  46 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+	JAG UpgradeTask  47 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  47 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  48 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  48 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 2 ms
+	JAG UpgradeTask  49 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  49 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 15 ms
+	JAG UpgradeTask  50 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  50 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  51 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  51 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+
+2022-10-04 21:12:53,264 ThreadPoolAsyncTaskExecutor::Thread 18 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK]: com.atlassian.greenhopper.service.lexorank.LexoRankIssueEventListener
+2022-10-04 21:12:53,265 ThreadPoolAsyncTaskExecutor::Thread 18 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [EPIC_LINK]: com.atlassian.greenhopper.customfield.epiclink.EpicLinkIssueEventListener
+2022-10-04 21:12:53,265 ThreadPoolAsyncTaskExecutor::Thread 18 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [ISSUE_CLOSED]: com.atlassian.greenhopper.issue.RemoveFutureSprintsFromClosedIssuesListener
+2022-10-04 21:12:53,265 ThreadPoolAsyncTaskExecutor::Thread 18 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [CACHE_MANAGER]: com.atlassian.greenhopper.service.GreenHopperCacheManager
+2022-10-04 21:12:53,265 ThreadPoolAsyncTaskExecutor::Thread 18 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [RANK_INDEX_SERVICE]: com.atlassian.greenhopper.service.rank.RankIndexServiceImpl
+2022-10-04 21:12:53,265 ThreadPoolAsyncTaskExecutor::Thread 18 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_FIELD]: com.atlassian.greenhopper.customfield.lexorank.LexoRankCFListener
+2022-10-04 21:12:53,265 ThreadPoolAsyncTaskExecutor::Thread 18 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_BALANCING_EVENT]: com.atlassian.greenhopper.service.lexorank.balance.LexoRankBalancingService
+2022-10-04 21:12:53,266 ThreadPoolAsyncTaskExecutor::Thread 18 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [INDEX_CHECK_SERVICE]: com.atlassian.greenhopper.service.index.IndexCheckServiceImpl
+2022-10-04 21:12:53,266 ThreadPoolAsyncTaskExecutor::Thread 18 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [QUERY_MAPPER_CACHE]: com.atlassian.greenhopper.service.query.QueryToProjectMapper
+2022-10-04 21:12:53,266 ThreadPoolAsyncTaskExecutor::Thread 18 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [AUDIT_LOG]: com.atlassian.greenhopper.auditing.AuditingEventListener
+2022-10-04 21:12:54,689 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin started.  Get Agile!
+*********************************************************************************
+
+2022-10-04 21:12:58,249 JIRA-Bootstrap INFO      [com.atlassian.greenhopper.Launcher] Registering dynamic modules
+2022-10-04 21:12:59,342 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Initialising LexoRank Balancing Service
+2022-10-04 21:12:59,344 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Scheduler job already present in db, not scheduling again
+2022-10-04 21:12:59,345 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] LexoRank Balancing Service is initialised, foregroundIndexRunning=false
+2022-10-04 21:12:59,807 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+Managed Issue Types
+	Epic                            id=10000                   name=Epic                            
+	Story                           id=10001                   name=Story                           
+
+
+Managed Custom Fields
+	Epic Colour                     id=customfield_10103       name=Epic Color                      type=com.pyxis.greenhopper.jira:gh-epic-color
+	Epic Link                       id=customfield_10100       name=Epic Link                       type=com.pyxis.greenhopper.jira:gh-epic-link
+	Epic Name                       id=customfield_10102       name=Epic Name                       type=com.pyxis.greenhopper.jira:gh-epic-label
+	Epic Status                     id=customfield_10101       name=Epic Status                     type=com.pyxis.greenhopper.jira:gh-epic-status
+	Default Global Rank             id=customfield_10105       name=Rank                            type=com.pyxis.greenhopper.jira:gh-lexo-rank
+	Sprint                          id=customfield_10104       name=Sprint                          type=com.pyxis.greenhopper.jira:gh-sprint
+	Story Points                    id=customfield_10106       name=Story Points                    type=com.atlassian.jira.plugin.system.customfieldtypes:float
+
+
+Managed Issue Link Types
+	Epic Link Issue Link Type       id=10200                   name=Epic-Story Link                 
+
+2022-10-04 21:13:00,058 Caesium-1-4 INFO      [manager.lexorank.collation.CollationIntegrityCheckerImpl]  Collation check performed against LexoRank table: OK
+2022-10-04 21:35:27,604 ThreadPoolAsyncTaskExecutor::Thread 15 INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin starting...
+*********************************************************************************
+
+2022-10-04 21:35:27,631 ThreadPoolAsyncTaskExecutor::Thread 15 INFO      [greenhopper.service.logging.LogSupport] 
+
+JIRA Agile Run History
+
+	*JIRA Agile v8.5.4 (831d15f2f885a2b0) started at 02 Oct 2022 11:24
+
+
+2022-10-04 21:35:27,643 ThreadPoolAsyncTaskExecutor::Thread 15 INFO      [greenhopper.service.logging.LogSupport] 
+
+The following JIRA Agile upgrade tasks have been run on this system
+
+	JAG UpgradeTask  46 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  46 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+	JAG UpgradeTask  47 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  47 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  48 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  48 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 2 ms
+	JAG UpgradeTask  49 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  49 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 15 ms
+	JAG UpgradeTask  50 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  50 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  51 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  51 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+
+2022-10-04 21:35:27,644 ThreadPoolAsyncTaskExecutor::Thread 15 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK]: com.atlassian.greenhopper.service.lexorank.LexoRankIssueEventListener
+2022-10-04 21:35:27,644 ThreadPoolAsyncTaskExecutor::Thread 15 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [EPIC_LINK]: com.atlassian.greenhopper.customfield.epiclink.EpicLinkIssueEventListener
+2022-10-04 21:35:27,644 ThreadPoolAsyncTaskExecutor::Thread 15 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [ISSUE_CLOSED]: com.atlassian.greenhopper.issue.RemoveFutureSprintsFromClosedIssuesListener
+2022-10-04 21:35:27,644 ThreadPoolAsyncTaskExecutor::Thread 15 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [CACHE_MANAGER]: com.atlassian.greenhopper.service.GreenHopperCacheManager
+2022-10-04 21:35:27,644 ThreadPoolAsyncTaskExecutor::Thread 15 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [RANK_INDEX_SERVICE]: com.atlassian.greenhopper.service.rank.RankIndexServiceImpl
+2022-10-04 21:35:27,644 ThreadPoolAsyncTaskExecutor::Thread 15 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_FIELD]: com.atlassian.greenhopper.customfield.lexorank.LexoRankCFListener
+2022-10-04 21:35:27,644 ThreadPoolAsyncTaskExecutor::Thread 15 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_BALANCING_EVENT]: com.atlassian.greenhopper.service.lexorank.balance.LexoRankBalancingService
+2022-10-04 21:35:27,645 ThreadPoolAsyncTaskExecutor::Thread 15 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [INDEX_CHECK_SERVICE]: com.atlassian.greenhopper.service.index.IndexCheckServiceImpl
+2022-10-04 21:35:27,645 ThreadPoolAsyncTaskExecutor::Thread 15 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [QUERY_MAPPER_CACHE]: com.atlassian.greenhopper.service.query.QueryToProjectMapper
+2022-10-04 21:35:27,645 ThreadPoolAsyncTaskExecutor::Thread 15 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [AUDIT_LOG]: com.atlassian.greenhopper.auditing.AuditingEventListener
+2022-10-04 21:35:29,216 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin started.  Get Agile!
+*********************************************************************************
+
+2022-10-04 21:35:32,542 JIRA-Bootstrap INFO      [com.atlassian.greenhopper.Launcher] Registering dynamic modules
+2022-10-04 21:35:33,632 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Initialising LexoRank Balancing Service
+2022-10-04 21:35:33,634 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Scheduler job already present in db, not scheduling again
+2022-10-04 21:35:33,635 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] LexoRank Balancing Service is initialised, foregroundIndexRunning=false
+2022-10-04 21:35:34,099 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+Managed Issue Types
+	Epic                            id=10000                   name=Epic                            
+	Story                           id=10001                   name=Story                           
+
+
+Managed Custom Fields
+	Epic Colour                     id=customfield_10103       name=Epic Color                      type=com.pyxis.greenhopper.jira:gh-epic-color
+	Epic Link                       id=customfield_10100       name=Epic Link                       type=com.pyxis.greenhopper.jira:gh-epic-link
+	Epic Name                       id=customfield_10102       name=Epic Name                       type=com.pyxis.greenhopper.jira:gh-epic-label
+	Epic Status                     id=customfield_10101       name=Epic Status                     type=com.pyxis.greenhopper.jira:gh-epic-status
+	Default Global Rank             id=customfield_10105       name=Rank                            type=com.pyxis.greenhopper.jira:gh-lexo-rank
+	Sprint                          id=customfield_10104       name=Sprint                          type=com.pyxis.greenhopper.jira:gh-sprint
+	Story Points                    id=customfield_10106       name=Story Points                    type=com.atlassian.jira.plugin.system.customfieldtypes:float
+
+
+Managed Issue Link Types
+	Epic Link Issue Link Type       id=10200                   name=Epic-Story Link                 
+
+2022-10-04 21:35:34,648 Caesium-1-3 INFO      [manager.lexorank.collation.CollationIntegrityCheckerImpl]  Collation check performed against LexoRank table: OK
+2022-10-04 21:45:23,969 ThreadPoolAsyncTaskExecutor::Thread 8 INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin starting...
+*********************************************************************************
+
+2022-10-04 21:45:23,996 ThreadPoolAsyncTaskExecutor::Thread 8 INFO      [greenhopper.service.logging.LogSupport] 
+
+JIRA Agile Run History
+
+	*JIRA Agile v8.5.4 (831d15f2f885a2b0) started at 02 Oct 2022 11:24
+
+
+2022-10-04 21:45:24,008 ThreadPoolAsyncTaskExecutor::Thread 8 INFO      [greenhopper.service.logging.LogSupport] 
+
+The following JIRA Agile upgrade tasks have been run on this system
+
+	JAG UpgradeTask  46 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  46 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+	JAG UpgradeTask  47 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  47 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  48 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  48 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 2 ms
+	JAG UpgradeTask  49 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  49 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 15 ms
+	JAG UpgradeTask  50 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  50 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  51 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  51 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+
+2022-10-04 21:45:24,009 ThreadPoolAsyncTaskExecutor::Thread 8 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK]: com.atlassian.greenhopper.service.lexorank.LexoRankIssueEventListener
+2022-10-04 21:45:24,009 ThreadPoolAsyncTaskExecutor::Thread 8 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [EPIC_LINK]: com.atlassian.greenhopper.customfield.epiclink.EpicLinkIssueEventListener
+2022-10-04 21:45:24,009 ThreadPoolAsyncTaskExecutor::Thread 8 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [ISSUE_CLOSED]: com.atlassian.greenhopper.issue.RemoveFutureSprintsFromClosedIssuesListener
+2022-10-04 21:45:24,009 ThreadPoolAsyncTaskExecutor::Thread 8 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [CACHE_MANAGER]: com.atlassian.greenhopper.service.GreenHopperCacheManager
+2022-10-04 21:45:24,009 ThreadPoolAsyncTaskExecutor::Thread 8 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [RANK_INDEX_SERVICE]: com.atlassian.greenhopper.service.rank.RankIndexServiceImpl
+2022-10-04 21:45:24,009 ThreadPoolAsyncTaskExecutor::Thread 8 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_FIELD]: com.atlassian.greenhopper.customfield.lexorank.LexoRankCFListener
+2022-10-04 21:45:24,009 ThreadPoolAsyncTaskExecutor::Thread 8 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_BALANCING_EVENT]: com.atlassian.greenhopper.service.lexorank.balance.LexoRankBalancingService
+2022-10-04 21:45:24,010 ThreadPoolAsyncTaskExecutor::Thread 8 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [INDEX_CHECK_SERVICE]: com.atlassian.greenhopper.service.index.IndexCheckServiceImpl
+2022-10-04 21:45:24,010 ThreadPoolAsyncTaskExecutor::Thread 8 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [QUERY_MAPPER_CACHE]: com.atlassian.greenhopper.service.query.QueryToProjectMapper
+2022-10-04 21:45:24,010 ThreadPoolAsyncTaskExecutor::Thread 8 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [AUDIT_LOG]: com.atlassian.greenhopper.auditing.AuditingEventListener
+2022-10-04 21:45:25,555 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin started.  Get Agile!
+*********************************************************************************
+
+2022-10-04 21:45:28,926 JIRA-Bootstrap INFO      [com.atlassian.greenhopper.Launcher] Registering dynamic modules
+2022-10-04 21:45:30,095 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Initialising LexoRank Balancing Service
+2022-10-04 21:45:30,100 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Scheduler job already present in db, not scheduling again
+2022-10-04 21:45:30,101 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] LexoRank Balancing Service is initialised, foregroundIndexRunning=false
+2022-10-04 21:45:30,588 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+Managed Issue Types
+	Epic                            id=10000                   name=Epic                            
+	Story                           id=10001                   name=Story                           
+
+
+Managed Custom Fields
+	Epic Colour                     id=customfield_10103       name=Epic Color                      type=com.pyxis.greenhopper.jira:gh-epic-color
+	Epic Link                       id=customfield_10100       name=Epic Link                       type=com.pyxis.greenhopper.jira:gh-epic-link
+	Epic Name                       id=customfield_10102       name=Epic Name                       type=com.pyxis.greenhopper.jira:gh-epic-label
+	Epic Status                     id=customfield_10101       name=Epic Status                     type=com.pyxis.greenhopper.jira:gh-epic-status
+	Default Global Rank             id=customfield_10105       name=Rank                            type=com.pyxis.greenhopper.jira:gh-lexo-rank
+	Sprint                          id=customfield_10104       name=Sprint                          type=com.pyxis.greenhopper.jira:gh-sprint
+	Story Points                    id=customfield_10106       name=Story Points                    type=com.atlassian.jira.plugin.system.customfieldtypes:float
+
+
+Managed Issue Link Types
+	Epic Link Issue Link Type       id=10200                   name=Epic-Story Link                 
+
+2022-10-04 21:45:30,840 Caesium-1-1 INFO      [manager.lexorank.collation.CollationIntegrityCheckerImpl]  Collation check performed against LexoRank table: OK
+2022-10-05 17:32:40,148 ThreadPoolAsyncTaskExecutor::Thread 4 INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin starting...
+*********************************************************************************
+
+2022-10-05 17:32:40,172 ThreadPoolAsyncTaskExecutor::Thread 4 INFO      [greenhopper.service.logging.LogSupport] 
+
+JIRA Agile Run History
+
+	*JIRA Agile v8.5.4 (831d15f2f885a2b0) started at 02 Oct 2022 11:24
+
+
+2022-10-05 17:32:40,183 ThreadPoolAsyncTaskExecutor::Thread 4 INFO      [greenhopper.service.logging.LogSupport] 
+
+The following JIRA Agile upgrade tasks have been run on this system
+
+	JAG UpgradeTask  46 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  46 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+	JAG UpgradeTask  47 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  47 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  48 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  48 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 2 ms
+	JAG UpgradeTask  49 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  49 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 15 ms
+	JAG UpgradeTask  50 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  50 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  51 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  51 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+
+2022-10-05 17:32:40,184 ThreadPoolAsyncTaskExecutor::Thread 4 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK]: com.atlassian.greenhopper.service.lexorank.LexoRankIssueEventListener
+2022-10-05 17:32:40,184 ThreadPoolAsyncTaskExecutor::Thread 4 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [EPIC_LINK]: com.atlassian.greenhopper.customfield.epiclink.EpicLinkIssueEventListener
+2022-10-05 17:32:40,184 ThreadPoolAsyncTaskExecutor::Thread 4 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [ISSUE_CLOSED]: com.atlassian.greenhopper.issue.RemoveFutureSprintsFromClosedIssuesListener
+2022-10-05 17:32:40,184 ThreadPoolAsyncTaskExecutor::Thread 4 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [CACHE_MANAGER]: com.atlassian.greenhopper.service.GreenHopperCacheManager
+2022-10-05 17:32:40,184 ThreadPoolAsyncTaskExecutor::Thread 4 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [RANK_INDEX_SERVICE]: com.atlassian.greenhopper.service.rank.RankIndexServiceImpl
+2022-10-05 17:32:40,184 ThreadPoolAsyncTaskExecutor::Thread 4 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_FIELD]: com.atlassian.greenhopper.customfield.lexorank.LexoRankCFListener
+2022-10-05 17:32:40,185 ThreadPoolAsyncTaskExecutor::Thread 4 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_BALANCING_EVENT]: com.atlassian.greenhopper.service.lexorank.balance.LexoRankBalancingService
+2022-10-05 17:32:40,185 ThreadPoolAsyncTaskExecutor::Thread 4 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [INDEX_CHECK_SERVICE]: com.atlassian.greenhopper.service.index.IndexCheckServiceImpl
+2022-10-05 17:32:40,185 ThreadPoolAsyncTaskExecutor::Thread 4 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [QUERY_MAPPER_CACHE]: com.atlassian.greenhopper.service.query.QueryToProjectMapper
+2022-10-05 17:32:40,185 ThreadPoolAsyncTaskExecutor::Thread 4 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [AUDIT_LOG]: com.atlassian.greenhopper.auditing.AuditingEventListener
+2022-10-05 17:32:41,983 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin started.  Get Agile!
+*********************************************************************************
+
+2022-10-05 17:32:45,126 JIRA-Bootstrap INFO      [com.atlassian.greenhopper.Launcher] Registering dynamic modules
+2022-10-05 17:32:46,179 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Initialising LexoRank Balancing Service
+2022-10-05 17:32:46,181 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Scheduler job already present in db, not scheduling again
+2022-10-05 17:32:46,182 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] LexoRank Balancing Service is initialised, foregroundIndexRunning=false
+2022-10-05 17:32:46,648 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+Managed Issue Types
+	Epic                            id=10000                   name=Epic                            
+	Story                           id=10001                   name=Story                           
+
+
+Managed Custom Fields
+	Epic Colour                     id=customfield_10103       name=Epic Color                      type=com.pyxis.greenhopper.jira:gh-epic-color
+	Epic Link                       id=customfield_10100       name=Epic Link                       type=com.pyxis.greenhopper.jira:gh-epic-link
+	Epic Name                       id=customfield_10102       name=Epic Name                       type=com.pyxis.greenhopper.jira:gh-epic-label
+	Epic Status                     id=customfield_10101       name=Epic Status                     type=com.pyxis.greenhopper.jira:gh-epic-status
+	Default Global Rank             id=customfield_10105       name=Rank                            type=com.pyxis.greenhopper.jira:gh-lexo-rank
+	Sprint                          id=customfield_10104       name=Sprint                          type=com.pyxis.greenhopper.jira:gh-sprint
+	Story Points                    id=customfield_10106       name=Story Points                    type=com.atlassian.jira.plugin.system.customfieldtypes:float
+
+
+Managed Issue Link Types
+	Epic Link Issue Link Type       id=10200                   name=Epic-Story Link                 
+
+2022-10-05 17:32:47,048 Caesium-1-4 INFO ServiceRunner     [manager.lexorank.collation.CollationIntegrityCheckerImpl]  Collation check performed against LexoRank table: OK
+2022-10-05 18:54:24,275 ThreadPoolAsyncTaskExecutor::Thread 10 INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin starting...
+*********************************************************************************
+
+2022-10-05 18:54:24,328 ThreadPoolAsyncTaskExecutor::Thread 10 INFO      [greenhopper.service.logging.LogSupport] 
+
+JIRA Agile Run History
+
+	*JIRA Agile v8.5.4 (831d15f2f885a2b0) started at 02 Oct 2022 11:24
+
+
+2022-10-05 18:54:24,339 ThreadPoolAsyncTaskExecutor::Thread 10 INFO      [greenhopper.service.logging.LogSupport] 
+
+The following JIRA Agile upgrade tasks have been run on this system
+
+	JAG UpgradeTask  46 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  46 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+	JAG UpgradeTask  47 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  47 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  48 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  48 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 2 ms
+	JAG UpgradeTask  49 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  49 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 15 ms
+	JAG UpgradeTask  50 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  50 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  51 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  51 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+
+2022-10-05 18:54:24,340 ThreadPoolAsyncTaskExecutor::Thread 10 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK]: com.atlassian.greenhopper.service.lexorank.LexoRankIssueEventListener
+2022-10-05 18:54:24,340 ThreadPoolAsyncTaskExecutor::Thread 10 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [EPIC_LINK]: com.atlassian.greenhopper.customfield.epiclink.EpicLinkIssueEventListener
+2022-10-05 18:54:24,340 ThreadPoolAsyncTaskExecutor::Thread 10 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [ISSUE_CLOSED]: com.atlassian.greenhopper.issue.RemoveFutureSprintsFromClosedIssuesListener
+2022-10-05 18:54:24,340 ThreadPoolAsyncTaskExecutor::Thread 10 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [CACHE_MANAGER]: com.atlassian.greenhopper.service.GreenHopperCacheManager
+2022-10-05 18:54:24,340 ThreadPoolAsyncTaskExecutor::Thread 10 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [RANK_INDEX_SERVICE]: com.atlassian.greenhopper.service.rank.RankIndexServiceImpl
+2022-10-05 18:54:24,340 ThreadPoolAsyncTaskExecutor::Thread 10 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_FIELD]: com.atlassian.greenhopper.customfield.lexorank.LexoRankCFListener
+2022-10-05 18:54:24,341 ThreadPoolAsyncTaskExecutor::Thread 10 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_BALANCING_EVENT]: com.atlassian.greenhopper.service.lexorank.balance.LexoRankBalancingService
+2022-10-05 18:54:24,341 ThreadPoolAsyncTaskExecutor::Thread 10 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [INDEX_CHECK_SERVICE]: com.atlassian.greenhopper.service.index.IndexCheckServiceImpl
+2022-10-05 18:54:24,342 ThreadPoolAsyncTaskExecutor::Thread 10 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [QUERY_MAPPER_CACHE]: com.atlassian.greenhopper.service.query.QueryToProjectMapper
+2022-10-05 18:54:24,342 ThreadPoolAsyncTaskExecutor::Thread 10 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [AUDIT_LOG]: com.atlassian.greenhopper.auditing.AuditingEventListener
+2022-10-05 18:54:25,892 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin started.  Get Agile!
+*********************************************************************************
+
+2022-10-05 18:54:29,296 JIRA-Bootstrap INFO      [com.atlassian.greenhopper.Launcher] Registering dynamic modules
+2022-10-05 18:54:30,359 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Initialising LexoRank Balancing Service
+2022-10-05 18:54:30,361 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Scheduler job already present in db, not scheduling again
+2022-10-05 18:54:30,362 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] LexoRank Balancing Service is initialised, foregroundIndexRunning=false
+2022-10-05 18:54:30,824 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+Managed Issue Types
+	Epic                            id=10000                   name=Epic                            
+	Story                           id=10001                   name=Story                           
+
+
+Managed Custom Fields
+	Epic Colour                     id=customfield_10103       name=Epic Color                      type=com.pyxis.greenhopper.jira:gh-epic-color
+	Epic Link                       id=customfield_10100       name=Epic Link                       type=com.pyxis.greenhopper.jira:gh-epic-link
+	Epic Name                       id=customfield_10102       name=Epic Name                       type=com.pyxis.greenhopper.jira:gh-epic-label
+	Epic Status                     id=customfield_10101       name=Epic Status                     type=com.pyxis.greenhopper.jira:gh-epic-status
+	Default Global Rank             id=customfield_10105       name=Rank                            type=com.pyxis.greenhopper.jira:gh-lexo-rank
+	Sprint                          id=customfield_10104       name=Sprint                          type=com.pyxis.greenhopper.jira:gh-sprint
+	Story Points                    id=customfield_10106       name=Story Points                    type=com.atlassian.jira.plugin.system.customfieldtypes:float
+
+
+Managed Issue Link Types
+	Epic Link Issue Link Type       id=10200                   name=Epic-Story Link                 
+
+2022-10-05 18:54:31,169 Caesium-1-3 INFO      [manager.lexorank.collation.CollationIntegrityCheckerImpl]  Collation check performed against LexoRank table: OK
+2022-10-14 16:38:55,570 ThreadPoolAsyncTaskExecutor::Thread 9 INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin starting...
+*********************************************************************************
+
+2022-10-14 16:38:55,594 ThreadPoolAsyncTaskExecutor::Thread 9 INFO      [greenhopper.service.logging.LogSupport] 
+
+JIRA Agile Run History
+
+	*JIRA Agile v8.5.4 (831d15f2f885a2b0) started at 02 Oct 2022 11:24
+
+
+2022-10-14 16:38:55,606 ThreadPoolAsyncTaskExecutor::Thread 9 INFO      [greenhopper.service.logging.LogSupport] 
+
+The following JIRA Agile upgrade tasks have been run on this system
+
+	JAG UpgradeTask  46 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  46 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+	JAG UpgradeTask  47 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  47 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  48 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  48 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 2 ms
+	JAG UpgradeTask  49 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  49 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 15 ms
+	JAG UpgradeTask  50 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  50 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  51 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  51 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+
+2022-10-14 16:38:55,606 ThreadPoolAsyncTaskExecutor::Thread 9 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK]: com.atlassian.greenhopper.service.lexorank.LexoRankIssueEventListener
+2022-10-14 16:38:55,606 ThreadPoolAsyncTaskExecutor::Thread 9 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [EPIC_LINK]: com.atlassian.greenhopper.customfield.epiclink.EpicLinkIssueEventListener
+2022-10-14 16:38:55,606 ThreadPoolAsyncTaskExecutor::Thread 9 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [ISSUE_CLOSED]: com.atlassian.greenhopper.issue.RemoveFutureSprintsFromClosedIssuesListener
+2022-10-14 16:38:55,606 ThreadPoolAsyncTaskExecutor::Thread 9 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [CACHE_MANAGER]: com.atlassian.greenhopper.service.GreenHopperCacheManager
+2022-10-14 16:38:55,607 ThreadPoolAsyncTaskExecutor::Thread 9 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [RANK_INDEX_SERVICE]: com.atlassian.greenhopper.service.rank.RankIndexServiceImpl
+2022-10-14 16:38:55,607 ThreadPoolAsyncTaskExecutor::Thread 9 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_FIELD]: com.atlassian.greenhopper.customfield.lexorank.LexoRankCFListener
+2022-10-14 16:38:55,607 ThreadPoolAsyncTaskExecutor::Thread 9 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_BALANCING_EVENT]: com.atlassian.greenhopper.service.lexorank.balance.LexoRankBalancingService
+2022-10-14 16:38:55,607 ThreadPoolAsyncTaskExecutor::Thread 9 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [INDEX_CHECK_SERVICE]: com.atlassian.greenhopper.service.index.IndexCheckServiceImpl
+2022-10-14 16:38:55,608 ThreadPoolAsyncTaskExecutor::Thread 9 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [QUERY_MAPPER_CACHE]: com.atlassian.greenhopper.service.query.QueryToProjectMapper
+2022-10-14 16:38:55,608 ThreadPoolAsyncTaskExecutor::Thread 9 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [AUDIT_LOG]: com.atlassian.greenhopper.auditing.AuditingEventListener
+2022-10-14 16:38:57,615 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin started.  Get Agile!
+*********************************************************************************
+
+2022-10-14 16:39:01,064 JIRA-Bootstrap INFO      [com.atlassian.greenhopper.Launcher] Registering dynamic modules
+2022-10-14 16:39:02,127 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Initialising LexoRank Balancing Service
+2022-10-14 16:39:02,129 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Scheduler job already present in db, not scheduling again
+2022-10-14 16:39:02,130 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] LexoRank Balancing Service is initialised, foregroundIndexRunning=false
+2022-10-14 16:39:02,601 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+Managed Issue Types
+	Epic                            id=10000                   name=Epic                            
+	Story                           id=10001                   name=Story                           
+
+
+Managed Custom Fields
+	Epic Colour                     id=customfield_10103       name=Epic Color                      type=com.pyxis.greenhopper.jira:gh-epic-color
+	Epic Link                       id=customfield_10100       name=Epic Link                       type=com.pyxis.greenhopper.jira:gh-epic-link
+	Epic Name                       id=customfield_10102       name=Epic Name                       type=com.pyxis.greenhopper.jira:gh-epic-label
+	Epic Status                     id=customfield_10101       name=Epic Status                     type=com.pyxis.greenhopper.jira:gh-epic-status
+	Default Global Rank             id=customfield_10105       name=Rank                            type=com.pyxis.greenhopper.jira:gh-lexo-rank
+	Sprint                          id=customfield_10104       name=Sprint                          type=com.pyxis.greenhopper.jira:gh-sprint
+	Story Points                    id=customfield_10106       name=Story Points                    type=com.atlassian.jira.plugin.system.customfieldtypes:float
+
+
+Managed Issue Link Types
+	Epic Link Issue Link Type       id=10200                   name=Epic-Story Link                 
+
+2022-10-14 16:39:03,005 Caesium-1-1 INFO ServiceRunner     [manager.lexorank.collation.CollationIntegrityCheckerImpl]  Collation check performed against LexoRank table: OK
+2022-10-14 16:57:06,032 ThreadPoolAsyncTaskExecutor::Thread 22 INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin starting...
+*********************************************************************************
+
+2022-10-14 16:57:06,057 ThreadPoolAsyncTaskExecutor::Thread 22 INFO      [greenhopper.service.logging.LogSupport] 
+
+JIRA Agile Run History
+
+	*JIRA Agile v8.5.4 (831d15f2f885a2b0) started at 02 Oct 2022 11:24
+
+
+2022-10-14 16:57:06,071 ThreadPoolAsyncTaskExecutor::Thread 22 INFO      [greenhopper.service.logging.LogSupport] 
+
+The following JIRA Agile upgrade tasks have been run on this system
+
+	JAG UpgradeTask  46 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  46 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+	JAG UpgradeTask  47 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  47 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  48 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  48 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 2 ms
+	JAG UpgradeTask  49 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  49 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 15 ms
+	JAG UpgradeTask  50 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  50 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  51 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  51 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+
+2022-10-14 16:57:06,072 ThreadPoolAsyncTaskExecutor::Thread 22 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK]: com.atlassian.greenhopper.service.lexorank.LexoRankIssueEventListener
+2022-10-14 16:57:06,072 ThreadPoolAsyncTaskExecutor::Thread 22 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [EPIC_LINK]: com.atlassian.greenhopper.customfield.epiclink.EpicLinkIssueEventListener
+2022-10-14 16:57:06,072 ThreadPoolAsyncTaskExecutor::Thread 22 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [ISSUE_CLOSED]: com.atlassian.greenhopper.issue.RemoveFutureSprintsFromClosedIssuesListener
+2022-10-14 16:57:06,072 ThreadPoolAsyncTaskExecutor::Thread 22 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [CACHE_MANAGER]: com.atlassian.greenhopper.service.GreenHopperCacheManager
+2022-10-14 16:57:06,072 ThreadPoolAsyncTaskExecutor::Thread 22 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [RANK_INDEX_SERVICE]: com.atlassian.greenhopper.service.rank.RankIndexServiceImpl
+2022-10-14 16:57:06,072 ThreadPoolAsyncTaskExecutor::Thread 22 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_FIELD]: com.atlassian.greenhopper.customfield.lexorank.LexoRankCFListener
+2022-10-14 16:57:06,073 ThreadPoolAsyncTaskExecutor::Thread 22 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_BALANCING_EVENT]: com.atlassian.greenhopper.service.lexorank.balance.LexoRankBalancingService
+2022-10-14 16:57:06,073 ThreadPoolAsyncTaskExecutor::Thread 22 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [INDEX_CHECK_SERVICE]: com.atlassian.greenhopper.service.index.IndexCheckServiceImpl
+2022-10-14 16:57:06,073 ThreadPoolAsyncTaskExecutor::Thread 22 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [QUERY_MAPPER_CACHE]: com.atlassian.greenhopper.service.query.QueryToProjectMapper
+2022-10-14 16:57:06,074 ThreadPoolAsyncTaskExecutor::Thread 22 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [AUDIT_LOG]: com.atlassian.greenhopper.auditing.AuditingEventListener
+2022-10-14 16:57:07,515 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin started.  Get Agile!
+*********************************************************************************
+
+2022-10-14 16:57:10,937 JIRA-Bootstrap INFO      [com.atlassian.greenhopper.Launcher] Registering dynamic modules
+2022-10-14 16:57:12,053 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Initialising LexoRank Balancing Service
+2022-10-14 16:57:12,054 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Scheduler job already present in db, not scheduling again
+2022-10-14 16:57:12,055 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] LexoRank Balancing Service is initialised, foregroundIndexRunning=false
+2022-10-14 16:57:12,552 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+Managed Issue Types
+	Epic                            id=10000                   name=Epic                            
+	Story                           id=10001                   name=Story                           
+
+
+Managed Custom Fields
+	Epic Colour                     id=customfield_10103       name=Epic Color                      type=com.pyxis.greenhopper.jira:gh-epic-color
+	Epic Link                       id=customfield_10100       name=Epic Link                       type=com.pyxis.greenhopper.jira:gh-epic-link
+	Epic Name                       id=customfield_10102       name=Epic Name                       type=com.pyxis.greenhopper.jira:gh-epic-label
+	Epic Status                     id=customfield_10101       name=Epic Status                     type=com.pyxis.greenhopper.jira:gh-epic-status
+	Default Global Rank             id=customfield_10105       name=Rank                            type=com.pyxis.greenhopper.jira:gh-lexo-rank
+	Sprint                          id=customfield_10104       name=Sprint                          type=com.pyxis.greenhopper.jira:gh-sprint
+	Story Points                    id=customfield_10106       name=Story Points                    type=com.atlassian.jira.plugin.system.customfieldtypes:float
+
+
+Managed Issue Link Types
+	Epic Link Issue Link Type       id=10200                   name=Epic-Story Link                 
+
+2022-10-14 16:57:12,816 Caesium-1-3 INFO      [manager.lexorank.collation.CollationIntegrityCheckerImpl]  Collation check performed against LexoRank table: OK
+2022-10-15 13:28:42,797 ThreadPoolAsyncTaskExecutor::Thread 12 INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin starting...
+*********************************************************************************
+
+2022-10-15 13:28:42,822 ThreadPoolAsyncTaskExecutor::Thread 12 INFO      [greenhopper.service.logging.LogSupport] 
+
+JIRA Agile Run History
+
+	*JIRA Agile v8.5.4 (831d15f2f885a2b0) started at 02 Oct 2022 11:24
+
+
+2022-10-15 13:28:42,834 ThreadPoolAsyncTaskExecutor::Thread 12 INFO      [greenhopper.service.logging.LogSupport] 
+
+The following JIRA Agile upgrade tasks have been run on this system
+
+	JAG UpgradeTask  46 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  46 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+	JAG UpgradeTask  47 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  47 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  48 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  48 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 2 ms
+	JAG UpgradeTask  49 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  49 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 15 ms
+	JAG UpgradeTask  50 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  50 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 8 ms
+	JAG UpgradeTask  51 started at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0)
+	JAG UpgradeTask  51 ended   at 02 Oct 2022 11:26 within JAG v8.5.4 (831d15f2f885a2b0) and took 1 ms
+
+2022-10-15 13:28:42,834 ThreadPoolAsyncTaskExecutor::Thread 12 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK]: com.atlassian.greenhopper.service.lexorank.LexoRankIssueEventListener
+2022-10-15 13:28:42,834 ThreadPoolAsyncTaskExecutor::Thread 12 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [EPIC_LINK]: com.atlassian.greenhopper.customfield.epiclink.EpicLinkIssueEventListener
+2022-10-15 13:28:42,834 ThreadPoolAsyncTaskExecutor::Thread 12 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [ISSUE_CLOSED]: com.atlassian.greenhopper.issue.RemoveFutureSprintsFromClosedIssuesListener
+2022-10-15 13:28:42,834 ThreadPoolAsyncTaskExecutor::Thread 12 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [CACHE_MANAGER]: com.atlassian.greenhopper.service.GreenHopperCacheManager
+2022-10-15 13:28:42,835 ThreadPoolAsyncTaskExecutor::Thread 12 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [RANK_INDEX_SERVICE]: com.atlassian.greenhopper.service.rank.RankIndexServiceImpl
+2022-10-15 13:28:42,835 ThreadPoolAsyncTaskExecutor::Thread 12 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_FIELD]: com.atlassian.greenhopper.customfield.lexorank.LexoRankCFListener
+2022-10-15 13:28:42,835 ThreadPoolAsyncTaskExecutor::Thread 12 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [LEXO_RANK_BALANCING_EVENT]: com.atlassian.greenhopper.service.lexorank.balance.LexoRankBalancingService
+2022-10-15 13:28:42,835 ThreadPoolAsyncTaskExecutor::Thread 12 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [INDEX_CHECK_SERVICE]: com.atlassian.greenhopper.service.index.IndexCheckServiceImpl
+2022-10-15 13:28:42,836 ThreadPoolAsyncTaskExecutor::Thread 12 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [QUERY_MAPPER_CACHE]: com.atlassian.greenhopper.service.query.QueryToProjectMapper
+2022-10-15 13:28:42,836 ThreadPoolAsyncTaskExecutor::Thread 12 INFO      [com.atlassian.greenhopper.EventListenerRegistry] registered event listener [AUDIT_LOG]: com.atlassian.greenhopper.auditing.AuditingEventListener
+2022-10-15 13:28:44,640 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+*********************************************************************************
+Atlassian GreenHopper v8.5.4 #831d15f2f885a2b0 built 2020-03-19T11:49:05.859Z - plugin started.  Get Agile!
+*********************************************************************************
+
+2022-10-15 13:28:47,871 JIRA-Bootstrap INFO      [com.atlassian.greenhopper.Launcher] Registering dynamic modules
+2022-10-15 13:28:49,014 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Initialising LexoRank Balancing Service
+2022-10-15 13:28:49,015 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] Scheduler job already present in db, not scheduling again
+2022-10-15 13:28:49,016 JIRA-Bootstrap INFO      [service.lexorank.balance.LexoRankBalancingService] LexoRank Balancing Service is initialised, foregroundIndexRunning=false
+2022-10-15 13:28:49,479 JIRA-Bootstrap INFO      [greenhopper.service.logging.LogSupport] 
+
+Managed Issue Types
+	Epic                            id=10000                   name=Epic                            
+	Story                           id=10001                   name=Story                           
+
+
+Managed Custom Fields
+	Epic Colour                     id=customfield_10103       name=Epic Color                      type=com.pyxis.greenhopper.jira:gh-epic-color
+	Epic Link                       id=customfield_10100       name=Epic Link                       type=com.pyxis.greenhopper.jira:gh-epic-link
+	Epic Name                       id=customfield_10102       name=Epic Name                       type=com.pyxis.greenhopper.jira:gh-epic-label
+	Epic Status                     id=customfield_10101       name=Epic Status                     type=com.pyxis.greenhopper.jira:gh-epic-status
+	Default Global Rank             id=customfield_10105       name=Rank                            type=com.pyxis.greenhopper.jira:gh-lexo-rank
+	Sprint                          id=customfield_10104       name=Sprint                          type=com.pyxis.greenhopper.jira:gh-sprint
+	Story Points                    id=customfield_10106       name=Story Points                    type=com.atlassian.jira.plugin.system.customfieldtypes:float
+
+
+Managed Issue Link Types
+	Epic Link Issue Link Type       id=10200                   name=Epic-Story Link                 
+
+2022-10-15 13:28:49,845 Caesium-1-2 INFO      [manager.lexorank.collation.CollationIntegrityCheckerImpl]  Collation check performed against LexoRank table: OK

@@ -30,3 +30,173 @@
 2022-10-02 23:58:18,105+0000 http-nio-8080-exec-8 admin 1438x137x1 13xj7ed 127.0.0.1 /secure/Logout!default.jspa HttpSession [13xj7ed] destroyed for 'admin'
 2022-10-02 23:58:18,106+0000 http-nio-8080-exec-8 admin 1438x137x1 13xj7ed 127.0.0.1 /secure/Logout!default.jspa HttpSession created [1hfzc2g]
 2022-10-02 23:58:18,106+0000 http-nio-8080-exec-8 admin 1438x137x1 13xj7ed 127.0.0.1 /secure/Logout!default.jspa The user 'admin' has logged out.
+2022-10-04 17:15:26,379+0000 JIRA-Bootstrap      JIRA 8.5.4 build: 805004 started. You can now access JIRA through your web browser.
+2022-10-04 17:15:37,101+0000 http-nio-8080-exec-1   -   HttpSession created [1krl6o8]
+2022-10-04 17:15:40,866+0000 http-nio-8080-exec-8 anonymous 1035x8x2 - 127.0.0.1 /osd.jsp HttpSession created [lv9l3o]
+2022-10-04 17:15:45,030+0000 http-nio-8080-exec-4 anonymous 1035x14x1 1krl6o8 127.0.0.1 /rest/gadget/1.0/login login : 'admin' tried to login but they do not have USE permission or weren't found. Deleting remember me cookie.
+2022-10-04 17:15:45,045+0000 http-nio-8080-exec-4 anonymous 1035x14x1 1krl6o8 127.0.0.1 /rest/gadget/1.0/login The user 'admin' has FAILED authentication.  Failure count equals 1
+2022-10-04 17:15:48,829+0000 http-nio-8080-exec-2 anonymous 1035x15x1 1krl6o8 127.0.0.1 /rest/gadget/1.0/login HttpSession [1krl6o8] destroyed for 'anonymous'
+2022-10-04 17:15:48,829+0000 http-nio-8080-exec-2 anonymous 1035x15x1 1krl6o8 127.0.0.1 /rest/gadget/1.0/login HttpSession created [bu8uyo]
+2022-10-04 17:15:48,836+0000 http-nio-8080-exec-2 admin 1035x15x1 1krl6o8 127.0.0.1 /rest/gadget/1.0/login The user 'admin' has PASSED authentication.
+2022-10-04 17:17:04,538+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [lv9l3o] destroyed for 'anonymous'
+2022-10-04 21:12:39,687+0000 http-nio-8080-exec-2      HttpSession created [kinqg8]
+2022-10-04 21:12:57,392+0000 JIRA-Bootstrap      JIRA 8.5.4 build: 805004 started. You can now access JIRA through your web browser.
+2022-10-04 21:16:57,767+0000 http-nio-8080-exec-8 anonymous 1276x10x1 kinqg8 127.0.0.1 /rest/gadget/1.0/login HttpSession [kinqg8] destroyed for 'anonymous'
+2022-10-04 21:16:57,767+0000 http-nio-8080-exec-8 anonymous 1276x10x1 kinqg8 127.0.0.1 /rest/gadget/1.0/login HttpSession created [1tl36bh]
+2022-10-04 21:16:57,779+0000 http-nio-8080-exec-8 admin 1276x10x1 kinqg8 127.0.0.1 /rest/gadget/1.0/login The user 'admin' has PASSED authentication.
+2022-10-04 21:17:09,503+0000 http-nio-8080-exec-7 admin 1277x40x1 1tl36bh 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa The user 'admin' has PASSED authentication.
+2022-10-04 21:17:09,506+0000 http-nio-8080-exec-7 admin 1277x40x1 1tl36bh 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1tl36bh] destroyed for 'admin'
+2022-10-04 21:17:09,506+0000 http-nio-8080-exec-7 admin 1277x40x1 1tl36bh 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [vjs2hi]
+2022-10-04 21:35:31,884+0000 JIRA-Bootstrap      JIRA 8.5.4 build: 805004 started. You can now access JIRA through your web browser.
+2022-10-04 21:45:28,044+0000 JIRA-Bootstrap      JIRA 8.5.4 build: 805004 started. You can now access JIRA through your web browser.
+2022-10-05 17:32:44,443+0000 JIRA-Bootstrap      JIRA 8.5.4 build: 805004 started. You can now access JIRA through your web browser.
+2022-10-05 17:38:43,343+0000 http-nio-8080-exec-1   -   HttpSession created [10mxnz5]
+2022-10-05 18:02:53,575+0000 http-nio-8080-exec-3 anonymous 1082x8x1 - 10.244.0.17 /rest/auth/latest/session HttpSession created [1rlqqhh]
+2022-10-05 18:02:53,593+0000 http-nio-8080-exec-3 admin 1082x8x1 - 10.244.0.17 /rest/auth/latest/session The user 'admin' has PASSED authentication.
+2022-10-05 18:03:39,919+0000 http-nio-8080-exec-4 anonymous 1083x9x1 10mxnz5 127.0.0.1 /rest/gadget/1.0/login HttpSession [10mxnz5] destroyed for 'anonymous'
+2022-10-05 18:03:39,919+0000 http-nio-8080-exec-4 anonymous 1083x9x1 10mxnz5 127.0.0.1 /rest/gadget/1.0/login HttpSession created [1csjxoa]
+2022-10-05 18:03:39,925+0000 http-nio-8080-exec-4 admin 1083x9x1 10mxnz5 127.0.0.1 /rest/gadget/1.0/login The user 'admin' has PASSED authentication.
+2022-10-05 18:03:47,800+0000 http-nio-8080-exec-7 admin 1083x35x1 1csjxoa 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa The user 'admin' has PASSED authentication.
+2022-10-05 18:03:47,802+0000 http-nio-8080-exec-7 admin 1083x35x1 1csjxoa 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1csjxoa] destroyed for 'admin'
+2022-10-05 18:03:47,802+0000 http-nio-8080-exec-7 admin 1083x35x1 1csjxoa 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [us49ab]
+2022-10-05 18:04:21,262+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1rlqqhh] destroyed for 'admin'
+2022-10-05 18:54:28,548+0000 JIRA-Bootstrap      JIRA 8.5.4 build: 805004 started. You can now access JIRA through your web browser.
+2022-10-05 18:59:08,265+0000 http-nio-8080-exec-1 anonymous 1139x1x1 - 127.0.0.1 /secure/RapidBoard.jspa HttpSession created [d6bf6r]
+2022-10-05 18:59:12,048+0000 http-nio-8080-exec-9 anonymous 1139x8x1 d6bf6r 127.0.0.1 /login.jsp HttpSession [d6bf6r] destroyed for 'anonymous'
+2022-10-05 18:59:12,049+0000 http-nio-8080-exec-9 anonymous 1139x8x1 d6bf6r 127.0.0.1 /login.jsp HttpSession created [4d7e01]
+2022-10-05 18:59:12,087+0000 http-nio-8080-exec-9 admin 1139x8x1 d6bf6r 127.0.0.1 /login.jsp The user 'admin' has PASSED authentication.
+2022-10-05 20:38:20,806+0000 localhost-startStop-2      HttpSession [4d7e01] destroyed for 'admin'
+2022-10-14 16:35:23,950+0000 http-nio-8080-exec-2 anonymous 995x2x1 - 127.0.0.1 /secure/errors.jsp HttpSession created [i0n52p]
+2022-10-14 16:39:00,096+0000 JIRA-Bootstrap      JIRA 8.5.4 build: 805004 started. You can now access JIRA through your web browser.
+2022-10-14 16:57:10,172+0000 JIRA-Bootstrap      JIRA 8.5.4 build: 805004 started. You can now access JIRA through your web browser.
+2022-10-14 16:57:29,974+0000 http-nio-8080-exec-1   -   HttpSession created [31jbea]
+2022-10-14 16:57:47,219+0000 http-nio-8080-exec-7 anonymous 1017x7x1 31jbea 127.0.0.1 /rest/gadget/1.0/login HttpSession [31jbea] destroyed for 'anonymous'
+2022-10-14 16:57:47,220+0000 http-nio-8080-exec-7 anonymous 1017x7x1 31jbea 127.0.0.1 /rest/gadget/1.0/login HttpSession created [fsawd6]
+2022-10-14 16:57:47,233+0000 http-nio-8080-exec-7 admin 1017x7x1 31jbea 127.0.0.1 /rest/gadget/1.0/login The user 'admin' has PASSED authentication.
+2022-10-14 17:03:53,994+0000 http-nio-8080-exec-5 anonymous 1023x48x1 - 10.244.0.16 /rest/auth/latest/session HttpSession created [1w23ck5]
+2022-10-14 17:03:54,001+0000 http-nio-8080-exec-5 admin 1023x48x1 - 10.244.0.16 /rest/auth/latest/session The user 'admin' has PASSED authentication.
+2022-10-14 17:05:47,554+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1w23ck5] destroyed for 'admin'
+2022-10-14 17:13:47,357+0000 http-nio-8080-exec-10 anonymous 1033x108x1 - 10.244.0.16 /rest/auth/latest/session HttpSession created [xv2xbo]
+2022-10-14 17:13:47,363+0000 http-nio-8080-exec-10 admin 1033x108x1 - 10.244.0.16 /rest/auth/latest/session The user 'admin' has PASSED authentication.
+2022-10-14 17:14:47,674+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [xv2xbo] destroyed for 'admin'
+2022-10-14 17:16:05,760+0000 http-nio-8080-exec-6 admin 1036x137x1 fsawd6 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa The user 'admin' has PASSED authentication.
+2022-10-14 17:16:05,762+0000 http-nio-8080-exec-6 admin 1036x137x1 fsawd6 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [fsawd6] destroyed for 'admin'
+2022-10-14 17:16:05,763+0000 http-nio-8080-exec-6 admin 1036x137x1 fsawd6 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [56bjgv]
+2022-10-14 18:32:09,969+0000 http-nio-8080-exec-2 admin 1112x270x1 56bjgv 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa The user 'admin' has PASSED authentication.
+2022-10-14 18:32:09,972+0000 http-nio-8080-exec-2 admin 1112x270x1 56bjgv 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [56bjgv] destroyed for 'admin'
+2022-10-14 18:32:09,972+0000 http-nio-8080-exec-2 admin 1112x270x1 56bjgv 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1e5ybmq]
+2022-10-15 13:28:47,150+0000 JIRA-Bootstrap      JIRA 8.5.4 build: 805004 started. You can now access JIRA through your web browser.
+2022-10-15 13:34:10,294+0000 http-nio-8080-exec-1 anonymous 814x1x1 - 127.0.0.1 /browse/GS-1 HttpSession created [19d5ec6]
+2022-10-15 13:34:19,756+0000 http-nio-8080-exec-7 anonymous 814x7x1 19d5ec6 127.0.0.1 /login.jsp HttpSession [19d5ec6] destroyed for 'anonymous'
+2022-10-15 13:34:19,757+0000 http-nio-8080-exec-7 anonymous 814x7x1 19d5ec6 127.0.0.1 /login.jsp HttpSession created [19zjq52]
+2022-10-15 13:34:19,770+0000 http-nio-8080-exec-7 admin 814x7x1 19d5ec6 127.0.0.1 /login.jsp The user 'admin' has PASSED authentication.
+2022-10-15 13:38:01,788+0000 http-nio-8080-exec-3 anonymous 818x36x1 - 10.244.0.16 /rest/auth/latest/session HttpSession created [ksdg7r]
+2022-10-15 13:38:01,794+0000 http-nio-8080-exec-3 admin 818x36x1 - 10.244.0.16 /rest/auth/latest/session The user 'admin' has PASSED authentication.
+2022-10-15 13:38:16,163+0000 http-nio-8080-exec-6 anonymous 818x37x1 - 10.244.0.16 /rest/auth/latest/session HttpSession created [12si1w8]
+2022-10-15 13:38:16,169+0000 http-nio-8080-exec-6 admin 818x37x1 - 10.244.0.16 /rest/auth/latest/session The user 'admin' has PASSED authentication.
+2022-10-15 13:39:24,058+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [12si1w8] destroyed for 'admin'
+2022-10-15 13:39:24,059+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [ksdg7r] destroyed for 'admin'
+2022-10-15 13:39:29,067+0000 http-nio-8080-exec-1 anonymous 819x38x1 - 10.244.0.16 /rest/auth/latest/session HttpSession created [ajzdze]
+2022-10-15 13:39:29,074+0000 http-nio-8080-exec-1 admin 819x38x1 - 10.244.0.16 /rest/auth/latest/session The user 'admin' has PASSED authentication.
+2022-10-15 13:41:24,082+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [ajzdze] destroyed for 'admin'
+2022-10-15 13:53:58,601+0000 http-nio-8080-exec-9 admin 833x78x1 19zjq52 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa The user 'admin' has PASSED authentication.
+2022-10-15 13:53:58,610+0000 http-nio-8080-exec-9 admin 833x78x1 19zjq52 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [19zjq52] destroyed for 'admin'
+2022-10-15 13:53:58,610+0000 http-nio-8080-exec-9 admin 833x78x1 19zjq52 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [mc7sr4]
+2022-10-15 14:35:39,451+0000 http-nio-8080-exec-4 admin 875x384x1 mc7sr4 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa The user 'admin' has PASSED authentication.
+2022-10-15 14:35:39,453+0000 http-nio-8080-exec-4 admin 875x384x1 mc7sr4 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [mc7sr4] destroyed for 'admin'
+2022-10-15 14:35:39,453+0000 http-nio-8080-exec-4 admin 875x384x1 mc7sr4 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [kltp9s]
+2022-10-15 15:43:31,311+0000 http-nio-8080-exec-7 anonymous 943x519x1 - 10.244.0.16 /rest/api/2/search HttpSession created [anw0uz]
+2022-10-15 15:43:31,320+0000 http-nio-8080-exec-7 admin 943x519x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 15:45:25,635+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [anw0uz] destroyed for 'admin'
+2022-10-15 15:50:13,283+0000 http-nio-8080-exec-2 admin 950x550x1 kltp9s 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa The user 'admin' has PASSED authentication.
+2022-10-15 15:50:13,288+0000 http-nio-8080-exec-2 admin 950x550x1 kltp9s 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [kltp9s] destroyed for 'admin'
+2022-10-15 15:50:13,288+0000 http-nio-8080-exec-2 admin 950x550x1 kltp9s 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [1m0wj5p]
+2022-10-15 16:00:01,861+0000 http-nio-8080-exec-4 anonymous 960x625x1 - 10.244.0.16 /rest/api/2/search HttpSession created [h82abj]
+2022-10-15 16:00:01,866+0000 http-nio-8080-exec-4 admin 960x625x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 16:01:05,212+0000 http-nio-8080-exec-10 anonymous 961x637x1 - 10.244.0.16 /rest/api/2/project HttpSession created [12ymkmr]
+2022-10-15 16:01:05,219+0000 http-nio-8080-exec-10 admin 961x637x1 - 10.244.0.16 /rest/api/2/project The user 'admin' has PASSED authentication.
+2022-10-15 16:01:06,545+0000 http-nio-8080-exec-6 anonymous 961x638x1 - 10.244.0.16 /rest/api/2/issue/createmeta/GS/issuetypes HttpSession created [woazpi]
+2022-10-15 16:01:06,561+0000 http-nio-8080-exec-6 admin 961x638x1 - 10.244.0.16 /rest/api/2/issue/createmeta/GS/issuetypes The user 'admin' has PASSED authentication.
+2022-10-15 16:01:08,960+0000 http-nio-8080-exec-8 anonymous 961x639x1 - 10.244.0.16 /rest/api/2/issue/createmeta/GS/issuetypes/10004 HttpSession created [1f8q67m]
+2022-10-15 16:01:08,965+0000 http-nio-8080-exec-8 admin 961x639x1 - 10.244.0.16 /rest/api/2/issue/createmeta/GS/issuetypes/10004 The user 'admin' has PASSED authentication.
+2022-10-15 16:01:25,812+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [h82abj] destroyed for 'admin'
+2022-10-15 16:01:28,451+0000 http-nio-8080-exec-9 anonymous 961x640x1 - 10.244.0.16 /rest/api/2/issue/createmeta/GS/issuetypes/10004 HttpSession created [1vpsaaa]
+2022-10-15 16:01:28,456+0000 http-nio-8080-exec-9 admin 961x640x1 - 10.244.0.16 /rest/api/2/issue/createmeta/GS/issuetypes/10004 The user 'admin' has PASSED authentication.
+2022-10-15 16:01:28,483+0000 http-nio-8080-exec-7 admin 961x641x1 1vpsaaa 10.244.0.16 /rest/api/2/issue The user 'admin' has PASSED authentication.
+2022-10-15 16:01:28,752+0000 http-nio-8080-exec-1 admin 961x642x1 1vpsaaa 10.244.0.16 /rest/api/2/issue/GS-2 The user 'admin' has PASSED authentication.
+2022-10-15 16:02:25,827+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [12ymkmr] destroyed for 'admin'
+2022-10-15 16:02:25,828+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1f8q67m] destroyed for 'admin'
+2022-10-15 16:02:25,828+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [woazpi] destroyed for 'admin'
+2022-10-15 16:08:15,891+0000 http-nio-8080-exec-2 anonymous 968x668x1 - 10.244.0.16 /rest/api/2/search HttpSession created [rhmslp]
+2022-10-15 16:08:15,898+0000 http-nio-8080-exec-2 admin 968x668x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 16:08:26,307+0000 http-nio-8080-exec-6 anonymous 968x669x1 - 10.244.0.16 /rest/api/2/search HttpSession created [1uyd305]
+2022-10-15 16:08:26,314+0000 http-nio-8080-exec-6 admin 968x669x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 16:08:32,632+0000 http-nio-8080-exec-10 anonymous 968x670x1 - 10.244.0.16 /rest/api/2/search HttpSession created [12tf8q8]
+2022-10-15 16:08:32,638+0000 http-nio-8080-exec-10 admin 968x670x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 16:09:25,904+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [rhmslp] destroyed for 'admin'
+2022-10-15 16:10:25,916+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1uyd305] destroyed for 'admin'
+2022-10-15 16:10:25,917+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [12tf8q8] destroyed for 'admin'
+2022-10-15 16:17:29,382+0000 http-nio-8080-exec-1 admin 977x692x1 1m0wj5p 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa The user 'admin' has PASSED authentication.
+2022-10-15 16:17:29,386+0000 http-nio-8080-exec-1 admin 977x692x1 1m0wj5p 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [1m0wj5p] destroyed for 'admin'
+2022-10-15 16:17:29,386+0000 http-nio-8080-exec-1 admin 977x692x1 1m0wj5p 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [rcnbwp]
+2022-10-15 16:52:45,714+0000 http-nio-8080-exec-4 admin 1012x1143x1 rcnbwp 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa The user 'admin' has PASSED authentication.
+2022-10-15 16:52:45,715+0000 http-nio-8080-exec-4 admin 1012x1143x1 rcnbwp 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [rcnbwp] destroyed for 'admin'
+2022-10-15 16:52:45,715+0000 http-nio-8080-exec-4 admin 1012x1143x1 rcnbwp 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [q0pzfe]
+2022-10-15 16:58:19,705+0000 http-nio-8080-exec-2 anonymous 1018x1245x1 - 10.244.0.16 /rest/api/2/search HttpSession created [1akttdt]
+2022-10-15 16:58:19,713+0000 http-nio-8080-exec-2 admin 1018x1245x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 16:59:26,593+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1akttdt] destroyed for 'admin'
+2022-10-15 17:02:26,634+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1vpsaaa] destroyed for 'admin'
+2022-10-15 17:08:55,811+0000 http-nio-8080-exec-10 admin 1028x1282x1 q0pzfe 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa The user 'admin' has PASSED authentication.
+2022-10-15 17:08:55,813+0000 http-nio-8080-exec-10 admin 1028x1282x1 q0pzfe 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession [q0pzfe] destroyed for 'admin'
+2022-10-15 17:08:55,813+0000 http-nio-8080-exec-10 admin 1028x1282x1 q0pzfe 127.0.0.1 /secure/admin/WebSudoAuthenticate.jspa HttpSession created [4zovt7]
+2022-10-15 17:11:09,454+0000 http-nio-8080-exec-7 anonymous 1031x1334x1 - 10.244.0.16 /rest/auth/latest/session HttpSession created [i5881o]
+2022-10-15 17:11:09,461+0000 http-nio-8080-exec-7 admin 1031x1334x1 - 10.244.0.16 /rest/auth/latest/session The user 'admin' has PASSED authentication.
+2022-10-15 17:11:54,391+0000 http-nio-8080-exec-5 anonymous 1031x1335x1 - 10.244.0.16 /rest/api/2/issue/createmeta/GS/issuetypes HttpSession created [3gimov]
+2022-10-15 17:11:54,392+0000 http-nio-8080-exec-2 anonymous 1031x1337x3 - 10.244.0.16 /rest/api/2/project HttpSession created [l5jzzk]
+2022-10-15 17:11:54,392+0000 http-nio-8080-exec-4 anonymous 1031x1336x2 - 10.244.0.16 /rest/api/2/issue/createmeta/GS/issuetypes/10004 HttpSession created [1b62s1y]
+2022-10-15 17:11:54,399+0000 http-nio-8080-exec-5 admin 1031x1335x1 - 10.244.0.16 /rest/api/2/issue/createmeta/GS/issuetypes The user 'admin' has PASSED authentication.
+2022-10-15 17:11:54,399+0000 http-nio-8080-exec-2 admin 1031x1337x3 - 10.244.0.16 /rest/api/2/project The user 'admin' has PASSED authentication.
+2022-10-15 17:11:54,400+0000 http-nio-8080-exec-4 admin 1031x1336x2 - 10.244.0.16 /rest/api/2/issue/createmeta/GS/issuetypes/10004 The user 'admin' has PASSED authentication.
+2022-10-15 17:12:26,773+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [i5881o] destroyed for 'admin'
+2022-10-15 17:12:40,759+0000 http-nio-8080-exec-3 anonymous 1032x1338x1 - 10.244.0.16 /rest/api/2/search HttpSession created [1xwwout]
+2022-10-15 17:12:40,769+0000 http-nio-8080-exec-3 admin 1032x1338x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 17:13:26,786+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1b62s1y] destroyed for 'admin'
+2022-10-15 17:13:26,787+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [l5jzzk] destroyed for 'admin'
+2022-10-15 17:13:26,787+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [3gimov] destroyed for 'admin'
+2022-10-15 17:14:26,803+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1xwwout] destroyed for 'admin'
+2022-10-15 17:25:05,821+0000 http-nio-8080-exec-3 anonymous 1045x1521x1 - 10.244.0.16 /rest/api/2/search HttpSession created [1s28buk]
+2022-10-15 17:25:05,827+0000 http-nio-8080-exec-3 admin 1045x1521x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 17:25:13,783+0000 http-nio-8080-exec-2 anonymous 1045x1522x1 - 10.244.0.16 /rest/api/2/search HttpSession created [1ropyaa]
+2022-10-15 17:25:13,789+0000 http-nio-8080-exec-2 admin 1045x1522x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 17:25:19,516+0000 http-nio-8080-exec-6 anonymous 1045x1523x1 - 10.244.0.16 /rest/api/2/search HttpSession created [kk26l8]
+2022-10-15 17:25:19,522+0000 http-nio-8080-exec-6 admin 1045x1523x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 17:26:26,986+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1ropyaa] destroyed for 'admin'
+2022-10-15 17:26:26,987+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1s28buk] destroyed for 'admin'
+2022-10-15 17:26:26,987+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [kk26l8] destroyed for 'admin'
+2022-10-15 17:28:11,318+0000 http-nio-8080-exec-9 anonymous 1048x1817x1 - 10.244.0.16 /rest/api/2/search HttpSession created [vjqvyn]
+2022-10-15 17:28:11,327+0000 http-nio-8080-exec-9 admin 1048x1817x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 17:29:27,033+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [vjqvyn] destroyed for 'admin'
+2022-10-15 17:33:04,321+0000 http-nio-8080-exec-7 anonymous 1053x1955x1 - 10.244.0.16 /rest/api/2/search HttpSession created [wucncj]
+2022-10-15 17:33:04,328+0000 http-nio-8080-exec-7 admin 1053x1955x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 17:34:27,101+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [wucncj] destroyed for 'admin'
+2022-10-15 17:40:33,026+0000 http-nio-8080-exec-5 anonymous 1060x2290x1 - 10.244.0.16 /rest/api/2/search HttpSession created [w3l7et]
+2022-10-15 17:40:33,035+0000 http-nio-8080-exec-5 admin 1060x2290x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 17:42:27,251+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [w3l7et] destroyed for 'admin'
+2022-10-15 17:44:33,083+0000 http-nio-8080-exec-3 anonymous 1064x2438x1 - 10.244.0.16 /rest/api/2/search HttpSession created [1rkhxmh]
+2022-10-15 17:44:33,094+0000 http-nio-8080-exec-3 admin 1064x2438x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 17:46:27,308+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1rkhxmh] destroyed for 'admin'
+2022-10-15 17:49:23,155+0000 http-nio-8080-exec-9 anonymous 1069x2628x1 - 10.244.0.16 /rest/api/2/search HttpSession created [cops6i]
+2022-10-15 17:49:23,163+0000 http-nio-8080-exec-9 admin 1069x2628x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 17:50:27,361+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [cops6i] destroyed for 'admin'
+2022-10-15 17:55:01,136+0000 http-nio-8080-exec-1 anonymous 1075x2877x1 - 10.244.0.16 /rest/api/2/search HttpSession created [1sdqky5]
+2022-10-15 17:55:01,141+0000 http-nio-8080-exec-1 admin 1075x2877x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 17:56:27,449+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1sdqky5] destroyed for 'admin'
+2022-10-15 18:03:19,051+0000 http-nio-8080-exec-9 anonymous 1083x3307x1 - 10.244.0.16 /rest/api/2/search HttpSession created [pszbh]
+2022-10-15 18:03:19,058+0000 http-nio-8080-exec-9 admin 1083x3307x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 18:03:37,029+0000 http-nio-8080-exec-3 anonymous 1083x3308x1 - 10.244.0.16 /rest/api/2/search HttpSession created [1bcj363]
+2022-10-15 18:03:37,039+0000 http-nio-8080-exec-3 admin 1083x3308x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 18:04:27,562+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [pszbh] destroyed for 'admin'
+2022-10-15 18:05:27,575+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1bcj363] destroyed for 'admin'
+2022-10-15 18:07:45,187+0000 http-nio-8080-exec-10 anonymous 1087x3569x1 - 10.244.0.16 /rest/api/2/search HttpSession created [1dmlwhg]
+2022-10-15 18:07:45,194+0000 http-nio-8080-exec-10 admin 1087x3569x1 - 10.244.0.16 /rest/api/2/search The user 'admin' has PASSED authentication.
+2022-10-15 18:09:27,630+0000 ContainerBackgroundProcessor[StandardEngine[Catalina]]      HttpSession [1dmlwhg] destroyed for 'admin'
