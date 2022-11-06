@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="workflow-durable-task-step">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/workflow-durable-task-step/WEB-INF/lib/workflow-durable-task-step.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="popper-api">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/popper-api/WEB-INF/lib/popper-api.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

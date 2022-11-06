@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="resource-disposer">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/resource-disposer/WEB-INF/lib/resource-disposer.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

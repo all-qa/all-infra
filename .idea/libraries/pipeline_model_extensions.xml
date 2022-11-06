@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="pipeline-model-extensions">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/pipeline-model-extensions/WEB-INF/lib/pipeline-model-extensions.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

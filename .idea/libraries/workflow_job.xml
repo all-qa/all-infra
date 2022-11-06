@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="workflow-job">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/workflow-job/WEB-INF/lib/workflow-job.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

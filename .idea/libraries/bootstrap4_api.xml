@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="bootstrap4-api">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/bootstrap4-api/WEB-INF/lib/bootstrap4-api.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

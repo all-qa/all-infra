@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="pipeline-stage-step">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/pipeline-stage-step/WEB-INF/lib/pipeline-stage-step.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="display-url-api">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/display-url-api/WEB-INF/lib/display-url-api.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

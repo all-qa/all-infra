@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="pipeline-stage-tags-metadata">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/pipeline-stage-tags-metadata/WEB-INF/lib/pipeline-stage-tags-metadata.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="instance-identity">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/instance-identity/WEB-INF/lib/instance-identity.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

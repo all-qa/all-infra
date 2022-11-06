@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="javadoc">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/javadoc/WEB-INF/lib/javadoc.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

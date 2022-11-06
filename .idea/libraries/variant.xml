@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="variant">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/variant/WEB-INF/lib/variant.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

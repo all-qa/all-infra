@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="command-launcher">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/k8s/jenkins/jenkins_data/plugins/command-launcher/WEB-INF/lib/command-launcher.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
